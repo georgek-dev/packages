@@ -171,6 +171,8 @@ libvte-2.91-gtk4.so.0:vte_terminal_ref_termprop_uri_by_id
 libvte-2.91-gtk4.so.0:vte_terminal_ref_termprop_variant
 libvte-2.91-gtk4.so.0:vte_terminal_ref_termprop_variant_by_id
 libvte-2.91-gtk4.so.0:vte_terminal_reset
+libvte-2.91-gtk4.so.0:vte_terminal_reset_termprop
+libvte-2.91-gtk4.so.0:vte_terminal_reset_termprop_by_id
 libvte-2.91-gtk4.so.0:vte_terminal_search_find_next
 libvte-2.91-gtk4.so.0:vte_terminal_search_find_previous
 libvte-2.91-gtk4.so.0:vte_terminal_search_get_regex
@@ -247,6 +249,7 @@ libvte-2.91-gtk4.so.0:vte_uuid_new_v5
 libvte-2.91-gtk4.so.0:vte_uuid_to_string
 libvte-2.91-gtk4.so.0:vte_uuid_validate_string
 libvte-2.91-gtk4.so.0:vte_write_flags_get_type
+libvte-2.91.so.0:_ZSt19piecewise_construct
 libvte-2.91.so.0:_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
 libvte-2.91.so.0:_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
 libvte-2.91.so.0:_ZTISt18bad_variant_access
@@ -423,6 +426,8 @@ libvte-2.91.so.0:vte_terminal_ref_termprop_uri_by_id
 libvte-2.91.so.0:vte_terminal_ref_termprop_variant
 libvte-2.91.so.0:vte_terminal_ref_termprop_variant_by_id
 libvte-2.91.so.0:vte_terminal_reset
+libvte-2.91.so.0:vte_terminal_reset_termprop
+libvte-2.91.so.0:vte_terminal_reset_termprop_by_id
 libvte-2.91.so.0:vte_terminal_search_find_next
 libvte-2.91.so.0:vte_terminal_search_find_previous
 libvte-2.91.so.0:vte_terminal_search_get_gregex
