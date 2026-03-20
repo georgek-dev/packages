@@ -246,6 +246,7 @@ libglib-2.0.so.0:g_direct_hash
 libglib-2.0.so.0:g_error_free
 libglib-2.0.so.0:g_file_test
 libglib-2.0.so.0:g_free
+libglib-2.0.so.0:g_free_sized
 libglib-2.0.so.0:g_get_monotonic_time
 libglib-2.0.so.0:g_get_user_runtime_dir
 libglib-2.0.so.0:g_getenv
@@ -412,6 +413,7 @@ libglib-2.0.so.0:g_variant_builder_open
 libglib-2.0.so.0:g_variant_get
 libglib-2.0.so.0:g_variant_get_boolean
 libglib-2.0.so.0:g_variant_get_type_string
+libglib-2.0.so.0:g_variant_lookup
 libglib-2.0.so.0:g_variant_new
 libglib-2.0.so.0:g_variant_new_boolean
 libglib-2.0.so.0:g_variant_type_checked_
@@ -462,6 +464,8 @@ libgobject-2.0.so.0:g_signal_add_emission_hook
 libgobject-2.0.so.0:g_signal_connect_data
 libgobject-2.0.so.0:g_signal_connect_object
 libgobject-2.0.so.0:g_signal_emit
+libgobject-2.0.so.0:g_signal_emit_by_name
+libgobject-2.0.so.0:g_signal_handler_disconnect
 libgobject-2.0.so.0:g_signal_handlers_disconnect_matched
 libgobject-2.0.so.0:g_signal_lookup
 libgobject-2.0.so.0:g_signal_new

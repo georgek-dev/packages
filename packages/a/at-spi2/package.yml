@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : at-spi2
-version    : 2.58.4
-release    : 55
+version    : 2.60.0
+release    : 56
 source     :
-    - https://download.gnome.org/sources/at-spi2-core/2.58/at-spi2-core-2.58.4.tar.xz : 71f1e5a814848d98fb89b9ff5b600ce09b24c7aa1506f72efc36a9fcfa03e3f5
+    - https://download.gnome.org/sources/at-spi2-core/2.60/at-spi2-core-2.60.0.tar.xz : 80e50c1a97d8fd660a3fadb02ca35876df881c266d3d6108fc5b4c113614cb99
 homepage   : https://gitlab.gnome.org/GNOME/at-spi2-core
 license    : LGPL-2.1-or-later
 component  : desktop.gtk
