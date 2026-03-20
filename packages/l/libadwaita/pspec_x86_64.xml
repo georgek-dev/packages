@@ -87,7 +87,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="37">libadwaita</Dependency>
+            <Dependency release="38">libadwaita</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/libadwaita-1/adw-about-dialog.h</Path>
@@ -146,6 +146,9 @@
             <Path fileType="header">/usr/include/libadwaita-1/adw-shortcuts-dialog.h</Path>
             <Path fileType="header">/usr/include/libadwaita-1/adw-shortcuts-item.h</Path>
             <Path fileType="header">/usr/include/libadwaita-1/adw-shortcuts-section.h</Path>
+            <Path fileType="header">/usr/include/libadwaita-1/adw-sidebar-item.h</Path>
+            <Path fileType="header">/usr/include/libadwaita-1/adw-sidebar-section.h</Path>
+            <Path fileType="header">/usr/include/libadwaita-1/adw-sidebar.h</Path>
             <Path fileType="header">/usr/include/libadwaita-1/adw-spin-row.h</Path>
             <Path fileType="header">/usr/include/libadwaita-1/adw-spinner-paintable.h</Path>
             <Path fileType="header">/usr/include/libadwaita-1/adw-spinner.h</Path>
@@ -170,6 +173,7 @@
             <Path fileType="header">/usr/include/libadwaita-1/adw-version.h</Path>
             <Path fileType="header">/usr/include/libadwaita-1/adw-view-stack.h</Path>
             <Path fileType="header">/usr/include/libadwaita-1/adw-view-switcher-bar.h</Path>
+            <Path fileType="header">/usr/include/libadwaita-1/adw-view-switcher-sidebar.h</Path>
             <Path fileType="header">/usr/include/libadwaita-1/adw-view-switcher-title.h</Path>
             <Path fileType="header">/usr/include/libadwaita-1/adw-view-switcher.h</Path>
             <Path fileType="header">/usr/include/libadwaita-1/adw-window-title.h</Path>
@@ -185,9 +189,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="37">
-            <Date>2026-03-17</Date>
-            <Version>1.8.5.1</Version>
+        <Update release="38">
+            <Date>2026-03-20</Date>
+            <Version>1.9.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Joey Riches</Name>
             <Email>josephriches@gmail.com</Email>
