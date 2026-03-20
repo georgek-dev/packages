@@ -3,8 +3,8 @@
         <Name>evolution</Name>
         <Homepage>https://gnome.pages.gitlab.gnome.org/evolution/help/</Homepage>
         <Packager>
-            <Name>Jakob Gezelius</Name>
-            <Email>jakob@knugen.nu</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Packager>
         <License>LGPL-2.1-or-later</License>
         <PartOf>network.mail</PartOf>
@@ -31,6 +31,7 @@
             <Path fileType="library">/usr/lib64/evolution/libecontactprint.so</Path>
             <Path fileType="library">/usr/lib64/evolution/libemail-engine.so</Path>
             <Path fileType="library">/usr/lib64/evolution/libessmime.so</Path>
+            <Path fileType="library">/usr/lib64/evolution/libevcardeditor.so</Path>
             <Path fileType="library">/usr/lib64/evolution/libevolution-addressbook-importers.so</Path>
             <Path fileType="library">/usr/lib64/evolution/libevolution-calendar-importers.so</Path>
             <Path fileType="library">/usr/lib64/evolution/libevolution-calendar.so</Path>
@@ -6291,7 +6292,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="90">evolution</Dependency>
+            <Dependency release="91">evolution</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/evolution/addressbook/gui/widgets/eab-config.h</Path>
@@ -6516,6 +6517,7 @@
             <Path fileType="header">/usr/include/evolution/e-util/e-marshal.h</Path>
             <Path fileType="header">/usr/include/evolution/e-util/e-menu-bar.h</Path>
             <Path fileType="header">/usr/include/evolution/e-util/e-menu-tool-button.h</Path>
+            <Path fileType="header">/usr/include/evolution/e-util/e-message-popover.h</Path>
             <Path fileType="header">/usr/include/evolution/e-util/e-misc-utils.h</Path>
             <Path fileType="header">/usr/include/evolution/e-util/e-mktemp.h</Path>
             <Path fileType="header">/usr/include/evolution/e-util/e-month-widget.h</Path>
@@ -6559,7 +6561,6 @@
             <Path fileType="header">/usr/include/evolution/e-util/e-source-config-backend.h</Path>
             <Path fileType="header">/usr/include/evolution/e-util/e-source-config-dialog.h</Path>
             <Path fileType="header">/usr/include/evolution/e-util/e-source-config.h</Path>
-            <Path fileType="header">/usr/include/evolution/e-util/e-source-conflict-search.h</Path>
             <Path fileType="header">/usr/include/evolution/e-util/e-source-selector-dialog.h</Path>
             <Path fileType="header">/usr/include/evolution/e-util/e-source-selector.h</Path>
             <Path fileType="header">/usr/include/evolution/e-util/e-source-util.h</Path>
@@ -6568,6 +6569,7 @@
             <Path fileType="header">/usr/include/evolution/e-util/e-spell-entry.h</Path>
             <Path fileType="header">/usr/include/evolution/e-util/e-spell-text-view.h</Path>
             <Path fileType="header">/usr/include/evolution/e-util/e-spinner.h</Path>
+            <Path fileType="header">/usr/include/evolution/e-util/e-split-date-edit.h</Path>
             <Path fileType="header">/usr/include/evolution/e-util/e-stock-request.h</Path>
             <Path fileType="header">/usr/include/evolution/e-util/e-table-click-to-add.h</Path>
             <Path fileType="header">/usr/include/evolution/e-util/e-table-col-dnd.h</Path>
@@ -7117,7 +7119,6 @@
             <Path fileType="doc">/usr/share/gtk-doc/html/evolution-util/ESourceConfig.html</Path>
             <Path fileType="doc">/usr/share/gtk-doc/html/evolution-util/ESourceConfigBackend.html</Path>
             <Path fileType="doc">/usr/share/gtk-doc/html/evolution-util/ESourceConfigDialog.html</Path>
-            <Path fileType="doc">/usr/share/gtk-doc/html/evolution-util/ESourceConflictSearch.html</Path>
             <Path fileType="doc">/usr/share/gtk-doc/html/evolution-util/ESourceSelector.html</Path>
             <Path fileType="doc">/usr/share/gtk-doc/html/evolution-util/ESourceSelectorDialog.html</Path>
             <Path fileType="doc">/usr/share/gtk-doc/html/evolution-util/ESpellChecker.html</Path>
@@ -7202,6 +7203,7 @@
             <Path fileType="doc">/usr/share/gtk-doc/html/evolution-util/api-index-3-56.html</Path>
             <Path fileType="doc">/usr/share/gtk-doc/html/evolution-util/api-index-3-58.html</Path>
             <Path fileType="doc">/usr/share/gtk-doc/html/evolution-util/api-index-3-6.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/evolution-util/api-index-3-60.html</Path>
             <Path fileType="doc">/usr/share/gtk-doc/html/evolution-util/api-index-3-8.html</Path>
             <Path fileType="doc">/usr/share/gtk-doc/html/evolution-util/api-index-full.html</Path>
             <Path fileType="doc">/usr/share/gtk-doc/html/evolution-util/ch01.html</Path>
@@ -7237,6 +7239,7 @@
             <Path fileType="doc">/usr/share/gtk-doc/html/evolution-util/evolution-util-e-html-utils.html</Path>
             <Path fileType="doc">/usr/share/gtk-doc/html/evolution-util/evolution-util-e-icon-factory.html</Path>
             <Path fileType="doc">/usr/share/gtk-doc/html/evolution-util/evolution-util-e-markdown-utils.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/evolution-util/evolution-util-e-message-popover.html</Path>
             <Path fileType="doc">/usr/share/gtk-doc/html/evolution-util/evolution-util-e-misc-utils.html</Path>
             <Path fileType="doc">/usr/share/gtk-doc/html/evolution-util/evolution-util-e-mktemp.html</Path>
             <Path fileType="doc">/usr/share/gtk-doc/html/evolution-util/evolution-util-e-passwords.html</Path>
@@ -7246,6 +7249,7 @@
             <Path fileType="doc">/usr/share/gtk-doc/html/evolution-util/evolution-util-e-selection.html</Path>
             <Path fileType="doc">/usr/share/gtk-doc/html/evolution-util/evolution-util-e-source-util.html</Path>
             <Path fileType="doc">/usr/share/gtk-doc/html/evolution-util/evolution-util-e-spell-text-view.html</Path>
+            <Path fileType="doc">/usr/share/gtk-doc/html/evolution-util/evolution-util-e-split-date-edit.html</Path>
             <Path fileType="doc">/usr/share/gtk-doc/html/evolution-util/evolution-util-e-table-header-utils.html</Path>
             <Path fileType="doc">/usr/share/gtk-doc/html/evolution-util/evolution-util-e-table-sorting-utils.html</Path>
             <Path fileType="doc">/usr/share/gtk-doc/html/evolution-util/evolution-util-e-table-utils.html</Path>
@@ -7276,12 +7280,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="90">
-            <Date>2026-02-14</Date>
-            <Version>3.58.3</Version>
+        <Update release="91">
+            <Date>2026-03-20</Date>
+            <Version>3.60.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Jakob Gezelius</Name>
-            <Email>jakob@knugen.nu</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Update>
     </History>
 </PISI>

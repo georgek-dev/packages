@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : evolution
-version    : 3.58.3
-release    : 90
+version    : 3.60.0
+release    : 91
 source     :
-    - https://download.gnome.org/sources/evolution/3.58/evolution-3.58.3.tar.xz : 5d01b79a5bebdf2d3a9871b61350939cf2501f6ea03c241543f744a9286d4d79
+    - https://download.gnome.org/sources/evolution/3.60/evolution-3.60.0.tar.xz : 0fed748a44933a7a1138fe6027966abc366c6c32eb5a41e30eb61b8e5439b5e5
 homepage   : https://gnome.pages.gitlab.gnome.org/evolution/help/
 license    : LGPL-2.1-or-later
 component  : network.mail
