@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : python-gobject
-version    : 3.54.5
-release    : 42
+version    : 3.56.1
+release    : 43
 source     :
-    - https://download.gnome.org/sources/pygobject/3.54/pygobject-3.54.2.tar.gz : 03cffeb49d8a1879b621d8f606ac904218019a0ae699b1cd3780a8ee611e696b
+    - https://download.gnome.org/sources/pygobject/3.56/pygobject-3.56.1.tar.gz : 2ec1cc8c55c7ffeebb97e58a9bba7aa1e74611f1173628084685446804a8881a
 homepage   : https://gnome.pages.gitlab.gnome.org/pygobject/
 license    : LGPL-2.1-or-later
 summary    : Python GObject bindings
