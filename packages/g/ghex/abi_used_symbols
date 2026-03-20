@@ -96,6 +96,7 @@ libgio-2.0.so.0:g_file_get_basename
 libgio-2.0.so.0:g_file_get_parent
 libgio-2.0.so.0:g_file_get_path
 libgio-2.0.so.0:g_file_get_type
+libgio-2.0.so.0:g_file_info_get_display_name
 libgio-2.0.so.0:g_file_info_get_size
 libgio-2.0.so.0:g_file_monitor_file
 libgio-2.0.so.0:g_file_monitor_set_rate_limit
@@ -120,7 +121,6 @@ libgio-2.0.so.0:g_static_resource_fini
 libgio-2.0.so.0:g_static_resource_get_resource
 libgio-2.0.so.0:g_static_resource_init
 libgio-2.0.so.0:g_task_get_source_object
-libgio-2.0.so.0:g_task_get_task_data
 libgio-2.0.so.0:g_task_get_type
 libgio-2.0.so.0:g_task_is_valid
 libgio-2.0.so.0:g_task_new
@@ -143,6 +143,7 @@ libglib-2.0.so.0:g_assertion_message_expr
 libglib-2.0.so.0:g_clear_error
 libglib-2.0.so.0:g_error_free
 libglib-2.0.so.0:g_free
+libglib-2.0.so.0:g_free_sized
 libglib-2.0.so.0:g_getenv
 libglib-2.0.so.0:g_hash_table_destroy
 libglib-2.0.so.0:g_hash_table_get_keys_as_array
@@ -197,7 +198,9 @@ libglib-2.0.so.0:g_strjoin
 libglib-2.0.so.0:g_timeout_add
 libglib-2.0.so.0:g_ucs4_to_utf8
 libglib-2.0.so.0:g_unichar_isspace
+libglib-2.0.so.0:g_utf8_make_valid
 libglib-2.0.so.0:g_utf8_offset_to_pointer
+libglib-2.0.so.0:g_utf8_pointer_to_offset
 libglib-2.0.so.0:g_variant_dict_contains
 libglib-2.0.so.0:g_variant_get
 libglib-2.0.so.0:g_variant_get_int32
@@ -206,9 +209,11 @@ libgmodule-2.0.so.0:g_module_make_resident
 libgmodule-2.0.so.0:g_module_open
 libgmodule-2.0.so.0:g_module_supported
 libgmodule-2.0.so.0:g_module_symbol
+libgobject-2.0.so.0:g_binding_unbind
 libgobject-2.0.so.0:g_boxed_type_register_static
 libgobject-2.0.so.0:g_enum_register_static
 libgobject-2.0.so.0:g_object_add_weak_pointer
+libgobject-2.0.so.0:g_object_bind_property
 libgobject-2.0.so.0:g_object_class_install_properties
 libgobject-2.0.so.0:g_object_class_override_property
 libgobject-2.0.so.0:g_object_get_data
@@ -217,6 +222,7 @@ libgobject-2.0.so.0:g_object_new
 libgobject-2.0.so.0:g_object_notify
 libgobject-2.0.so.0:g_object_notify_by_pspec
 libgobject-2.0.so.0:g_object_ref
+libgobject-2.0.so.0:g_object_remove_weak_pointer
 libgobject-2.0.so.0:g_object_set
 libgobject-2.0.so.0:g_object_set_data
 libgobject-2.0.so.0:g_object_unref

@@ -6,6 +6,7 @@ ghex:_end
 ghex:_start
 ghex:begin_print
 ghex:common_about_cb
+ghex:common_get_ui_basename
 ghex:common_help_cb
 ghex:common_print
 ghex:common_set_gtkhex_font_from_settings
@@ -205,7 +206,4 @@ libhex-buffer-mmap.so:hex_buffer_mmap_error_quark
 libhex-buffer-mmap.so:hex_buffer_mmap_get_byte
 libhex-buffer-mmap.so:hex_buffer_mmap_get_data
 libhex-buffer-mmap.so:hex_buffer_mmap_get_type
-libhex-buffer-mmap.so:hex_buffer_mmap_move
 libhex-buffer-mmap.so:hex_buffer_mmap_new
-libhex-buffer-mmap.so:hex_buffer_mmap_raw
-libhex-buffer-mmap.so:hex_buffer_mmap_snap
