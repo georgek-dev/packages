@@ -13,7 +13,10 @@ libadwaita-1.so.0:adw_button_content_set_icon_name
 libadwaita-1.so.0:adw_button_content_set_label
 libadwaita-1.so.0:adw_button_row_get_type
 libadwaita-1.so.0:adw_color_scheme_get_type
+libadwaita-1.so.0:adw_combo_row_get_model
+libadwaita-1.so.0:adw_combo_row_get_selected
 libadwaita-1.so.0:adw_combo_row_set_model
+libadwaita-1.so.0:adw_combo_row_set_selected
 libadwaita-1.so.0:adw_dialog_close
 libadwaita-1.so.0:adw_dialog_get_type
 libadwaita-1.so.0:adw_dialog_present
@@ -290,6 +293,9 @@ libgio-2.0.so.0:g_settings_get_user_value
 libgio-2.0.so.0:g_settings_get_value
 libgio-2.0.so.0:g_settings_new
 libgio-2.0.so.0:g_settings_new_with_path
+libgio-2.0.so.0:g_settings_schema_get_key
+libgio-2.0.so.0:g_settings_schema_key_get_default_value
+libgio-2.0.so.0:g_settings_schema_key_unref
 libgio-2.0.so.0:g_settings_schema_list_keys
 libgio-2.0.so.0:g_settings_schema_source_get_default
 libgio-2.0.so.0:g_settings_schema_source_lookup
@@ -576,6 +582,7 @@ libglib-2.0.so.0:g_variant_builder_open
 libglib-2.0.so.0:g_variant_builder_unref
 libglib-2.0.so.0:g_variant_dict_contains
 libglib-2.0.so.0:g_variant_dict_lookup
+libglib-2.0.so.0:g_variant_dup_string
 libglib-2.0.so.0:g_variant_equal
 libglib-2.0.so.0:g_variant_get
 libglib-2.0.so.0:g_variant_get_boolean
@@ -761,6 +768,7 @@ libgtk-4.so.1:gsk_renderer_render_texture
 libgtk-4.so.1:gtk_accelerator_get_default_mod_mask
 libgtk-4.so.1:gtk_accelerator_name
 libgtk-4.so.1:gtk_accelerator_parse
+libgtk-4.so.1:gtk_accessible_announce
 libgtk-4.so.1:gtk_accessible_update_property
 libgtk-4.so.1:gtk_actionable_set_action_name
 libgtk-4.so.1:gtk_actionable_set_action_target
@@ -771,7 +779,8 @@ libgtk-4.so.1:gtk_adjustment_set_value
 libgtk-4.so.1:gtk_application_add_window
 libgtk-4.so.1:gtk_application_get_active_window
 libgtk-4.so.1:gtk_application_get_windows
-libgtk-4.so.1:gtk_application_set_accels_for_action
+libgtk-4.so.1:gtk_application_inhibit
+libgtk-4.so.1:gtk_application_uninhibit
 libgtk-4.so.1:gtk_bin_layout_get_type
 libgtk-4.so.1:gtk_box_append
 libgtk-4.so.1:gtk_box_get_type
@@ -1021,6 +1030,7 @@ libvte-2.91-gtk4.so.0:vte_terminal_search_set_regex
 libvte-2.91-gtk4.so.0:vte_terminal_search_set_wrap_around
 libvte-2.91-gtk4.so.0:vte_terminal_select_all
 libvte-2.91-gtk4.so.0:vte_terminal_set_cell_height_scale
+libvte-2.91-gtk4.so.0:vte_terminal_set_cell_width_scale
 libvte-2.91-gtk4.so.0:vte_terminal_set_color_cursor
 libvte-2.91-gtk4.so.0:vte_terminal_set_color_cursor_foreground
 libvte-2.91-gtk4.so.0:vte_terminal_set_colors
