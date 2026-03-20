@@ -602,6 +602,7 @@ libgtk-4.so.1:gsk_path_builder_rel_move_to
 libgtk-4.so.1:gsk_path_unref
 libgtk-4.so.1:gsk_render_node_draw
 libgtk-4.so.1:gsk_render_node_unref
+libgtk-4.so.1:gsk_rounded_rect_init
 libgtk-4.so.1:gsk_stroke_free
 libgtk-4.so.1:gsk_stroke_new
 libgtk-4.so.1:gsk_text_node_new
@@ -743,8 +744,8 @@ libgtk-4.so.1:gtk_snapshot_push_clip
 libgtk-4.so.1:gtk_snapshot_push_color_matrix
 libgtk-4.so.1:gtk_snapshot_push_fill
 libgtk-4.so.1:gtk_snapshot_push_repeat
+libgtk-4.so.1:gtk_snapshot_push_rounded_clip
 libgtk-4.so.1:gtk_snapshot_push_stroke
-libgtk-4.so.1:gtk_snapshot_render_layout
 libgtk-4.so.1:gtk_snapshot_restore
 libgtk-4.so.1:gtk_snapshot_save
 libgtk-4.so.1:gtk_snapshot_translate
