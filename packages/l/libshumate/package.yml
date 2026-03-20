@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : libshumate
-version    : 1.5.3
-release    : 19
+version    : 1.6.0
+release    : 20
 source     :
-    - https://download.gnome.org/sources/libshumate/1.5/libshumate-1.5.3.tar.xz : 35f013b25391856e1b5c3d4409a5c4a640c6ccb5f5296ff982ec7bed39f56d4c
+    - https://download.gnome.org/sources/libshumate/1.6/libshumate-1.6.0.tar.xz : 66097ee05c3cc4dfbdc124dfc9b885085f5c6ba2f1b2e642d0475987f9222939
 homepage   : https://gitlab.gnome.org/GNOME/libshumate
 license    : LGPL-2.1-or-later
 component  : programming.library
