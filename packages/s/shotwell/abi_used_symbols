@@ -176,7 +176,6 @@ libgdk_pixbuf-2.0.so.0:gdk_pixbuf_loader_get_format
 libgdk_pixbuf-2.0.so.0:gdk_pixbuf_loader_get_pixbuf
 libgdk_pixbuf-2.0.so.0:gdk_pixbuf_loader_get_type
 libgdk_pixbuf-2.0.so.0:gdk_pixbuf_loader_new
-libgdk_pixbuf-2.0.so.0:gdk_pixbuf_loader_new_with_type
 libgdk_pixbuf-2.0.so.0:gdk_pixbuf_loader_write
 libgdk_pixbuf-2.0.so.0:gdk_pixbuf_new
 libgdk_pixbuf-2.0.so.0:gdk_pixbuf_new_from_data
@@ -469,6 +468,7 @@ libgio-2.0.so.0:g_file_info_get_modification_date_time
 libgio-2.0.so.0:g_file_info_get_name
 libgio-2.0.so.0:g_file_info_get_size
 libgio-2.0.so.0:g_file_info_get_type
+libgio-2.0.so.0:g_file_info_has_attribute
 libgio-2.0.so.0:g_file_info_set_attribute_string
 libgio-2.0.so.0:g_file_input_stream_query_info
 libgio-2.0.so.0:g_file_make_directory_with_parents
@@ -691,6 +691,7 @@ libglib-2.0.so.0:g_filename_display_name
 libglib-2.0.so.0:g_find_program_in_path
 libglib-2.0.so.0:g_format_size_full
 libglib-2.0.so.0:g_free
+libglib-2.0.so.0:g_free_sized
 libglib-2.0.so.0:g_get_charset
 libglib-2.0.so.0:g_get_home_dir
 libglib-2.0.so.0:g_get_host_name
