@@ -7186,7 +7186,9 @@ libglibmm-2.68.so.1:_ZNK4Glib5ValueIxvE17create_param_specERKNS_7ustringES4_S4_N
 libglibmm-2.68.so.1:_ZNK4Glib5ValueIxvE3getEv
 libglibmm-2.68.so.1:_ZNK4Glib5ValueIyvE17create_param_specERKNS_7ustringES4_S4_NS_10ParamFlagsE
 libglibmm-2.68.so.1:_ZNK4Glib5ValueIyvE3getEv
+libglibmm-2.68.so.1:_ZNK4Glib6Markup12ParseContext10get_offsetEv
 libglibmm-2.68.so.1:_ZNK4Glib6Markup12ParseContext11get_elementEv
+libglibmm-2.68.so.1:_ZNK4Glib6Markup12ParseContext13get_tag_startERmS2_S2_
 libglibmm-2.68.so.1:_ZNK4Glib6Markup12ParseContext15get_char_numberEv
 libglibmm-2.68.so.1:_ZNK4Glib6Markup12ParseContext15get_line_numberEv
 libglibmm-2.68.so.1:_ZNK4Glib6Markup16AttributeKeyLessclERKNS_7ustringES4_
