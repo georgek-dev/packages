@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : quadrapassel
-version    : 49.2.3
-release    : 19
+version    : 50.0.1
+release    : 20
 source     :
-    - https://download.gnome.org/sources/quadrapassel/49/quadrapassel-49.2.3.tar.xz : f9e7312bfa0f835a4e0bf535f356b1e9537194843e5deff5611f73dc2ddbf399
+    - https://download.gnome.org/sources/quadrapassel/50/quadrapassel-50.0.1.tar.xz : 6e7f878227f987cd919d3c1ce70ea7d3c794cf7e140c6efaceee703d138b4375
 homepage   : https://gitlab.gnome.org/GNOME/quadrapassel
 license    : GPL-2.0-or-later
 component  : games.arcade
@@ -18,6 +18,8 @@ builddeps  :
     - pkgconfig(libgnome-games-support-1)
     - pkgconfig(librsvg-2.0)
     - pkgconfig(manette-0.2)
+    - pkgconfig(openal)
+    - pkgconfig(sndfile)
     - pkgconfig(yelp-xsl)
     - blueprint-compiler
     - desktop-file-utils
