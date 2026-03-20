@@ -23,7 +23,7 @@
         <Files>
             <Path fileType="library">/usr/lib64/girepository-1.0/GWeather-4.0.typelib</Path>
             <Path fileType="library">/usr/lib64/libgweather-4.so.0</Path>
-            <Path fileType="library">/usr/lib64/libgweather-4.so.0.500.0</Path>
+            <Path fileType="library">/usr/lib64/libgweather-4.so.0.600.0</Path>
             <Path fileType="data">/usr/share/glib-2.0/schemas/org.gnome.GWeather4.enums.xml</Path>
             <Path fileType="data">/usr/share/glib-2.0/schemas/org.gnome.GWeather4.gschema.xml</Path>
             <Path fileType="localedata">/usr/share/locale/ab/LC_MESSAGES/libgweather-4.0.mo</Path>
@@ -148,7 +148,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="38">libgweather</Dependency>
+            <Dependency release="39">libgweather</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/libgweather-4.0/libgweather/gweather-enum-types.h</Path>
@@ -165,9 +165,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="38">
-            <Date>2026-02-06</Date>
-            <Version>4.5.0</Version>
+        <Update release="39">
+            <Date>2026-03-20</Date>
+            <Version>4.6.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Joey Riches</Name>
             <Email>josephriches@gmail.com</Email>
