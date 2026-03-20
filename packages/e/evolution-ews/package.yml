@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : evolution-ews
-version    : 3.58.3
-release    : 68
+version    : 3.60.0
+release    : 69
 source     :
-    - https://download.gnome.org/sources/evolution-ews/3.58/evolution-ews-3.58.3.tar.xz : 3f6ef8bb6389013e843e258ce1dc317a891a34f87d79780c9aef04d2741abc92
+    - https://download.gnome.org/sources/evolution-ews/3.60/evolution-ews-3.60.0.tar.xz : ccd2cf7fb3bcdd20e6de96263052e8a2a51e2a74e16bf8c3f5bc6087aa8d9934
 homepage   : https://gitlab.gnome.org/GNOME/evolution/-/wikis/home
 license    : LGPL-2.1-or-later
 component  : network.mail
