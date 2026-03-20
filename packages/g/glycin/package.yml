@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : glycin
-version    : 2.0.8
-release    : 10
+version    : 2.1.0
+release    : 11
 source     :
-    - https://download.gnome.org/sources/glycin/2.0/glycin-2.0.8.tar.xz : 6b9aef4f626bf969dfd04b563b83d521271a30c3d6df6a6a8463fd55490891df
+    - https://download.gnome.org/sources/glycin/2.1/glycin-2.1.0.tar.xz : 59f3742b3f231738738766afffa2874c839bfdabffcfa5fcb0f8ffe5509ad4e0
 homepage   : https://gitlab.gnome.org/sophie-h/glycin
 license    :
     - LGPL-2.1-or-later
