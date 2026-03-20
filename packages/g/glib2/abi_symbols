@@ -690,6 +690,7 @@ libgio-2.0.so.0:g_dtls_connection_shutdown_async
 libgio-2.0.so.0:g_dtls_connection_shutdown_finish
 libgio-2.0.so.0:g_dtls_server_connection_get_type
 libgio-2.0.so.0:g_dtls_server_connection_new
+libgio-2.0.so.0:g_ecn_code_point_get_type
 libgio-2.0.so.0:g_emblem_get_icon
 libgio-2.0.so.0:g_emblem_get_origin
 libgio-2.0.so.0:g_emblem_get_type
@@ -1110,6 +1111,14 @@ libgio-2.0.so.0:g_io_stream_set_pending
 libgio-2.0.so.0:g_io_stream_splice_async
 libgio-2.0.so.0:g_io_stream_splice_finish
 libgio-2.0.so.0:g_io_stream_splice_flags_get_type
+libgio-2.0.so.0:g_ip_tos_message_get_dscp
+libgio-2.0.so.0:g_ip_tos_message_get_ecn
+libgio-2.0.so.0:g_ip_tos_message_get_type
+libgio-2.0.so.0:g_ip_tos_message_new
+libgio-2.0.so.0:g_ipv6_tclass_message_get_dscp
+libgio-2.0.so.0:g_ipv6_tclass_message_get_ecn
+libgio-2.0.so.0:g_ipv6_tclass_message_get_type
+libgio-2.0.so.0:g_ipv6_tclass_message_new
 libgio-2.0.so.0:g_keyfile_settings_backend_new
 libgio-2.0.so.0:g_list_model_get_item
 libgio-2.0.so.0:g_list_model_get_item_type
@@ -2836,6 +2845,7 @@ libglib-2.0.so.0:g_get_language_names
 libglib-2.0.so.0:g_get_language_names_with_category
 libglib-2.0.so.0:g_get_locale_variants
 libglib-2.0.so.0:g_get_monotonic_time
+libglib-2.0.so.0:g_get_monotonic_time_ns
 libglib-2.0.so.0:g_get_num_processors
 libglib-2.0.so.0:g_get_os_info
 libglib-2.0.so.0:g_get_prgname
@@ -3148,7 +3158,9 @@ libglib-2.0.so.0:g_markup_parse_context_end_parse
 libglib-2.0.so.0:g_markup_parse_context_free
 libglib-2.0.so.0:g_markup_parse_context_get_element
 libglib-2.0.so.0:g_markup_parse_context_get_element_stack
+libglib-2.0.so.0:g_markup_parse_context_get_offset
 libglib-2.0.so.0:g_markup_parse_context_get_position
+libglib-2.0.so.0:g_markup_parse_context_get_tag_start
 libglib-2.0.so.0:g_markup_parse_context_get_user_data
 libglib-2.0.so.0:g_markup_parse_context_new
 libglib-2.0.so.0:g_markup_parse_context_parse
@@ -3829,6 +3841,7 @@ libglib-2.0.so.0:g_test_timer_start
 libglib-2.0.so.0:g_test_trap_assertions
 libglib-2.0.so.0:g_test_trap_fork
 libglib-2.0.so.0:g_test_trap_has_passed
+libglib-2.0.so.0:g_test_trap_has_skipped
 libglib-2.0.so.0:g_test_trap_reached_timeout
 libglib-2.0.so.0:g_test_trap_subprocess
 libglib-2.0.so.0:g_test_trap_subprocess_with_envp
@@ -3985,6 +3998,7 @@ libglib-2.0.so.0:g_unicode_script_to_iso15924
 libglib-2.0.so.0:g_unix_error_quark
 libglib-2.0.so.0:g_unix_fd_add
 libglib-2.0.so.0:g_unix_fd_add_full
+libglib-2.0.so.0:g_unix_fd_query_path
 libglib-2.0.so.0:g_unix_fd_source_funcs
 libglib-2.0.so.0:g_unix_fd_source_new
 libglib-2.0.so.0:g_unix_get_passwd_entry

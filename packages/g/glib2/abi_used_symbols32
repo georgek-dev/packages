@@ -248,7 +248,6 @@ libc.so.6:setenv
 libc.so.6:setlocale
 libc.so.6:setrlimit64
 libc.so.6:setsockopt
-libc.so.6:setvbuf
 libc.so.6:setxattr
 libc.so.6:shutdown
 libc.so.6:sigaction
