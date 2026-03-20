@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : evolution-data-server
-version    : 3.58.3
-release    : 115
+version    : 3.60.0
+release    : 116
 source     :
-    - https://download.gnome.org/sources/evolution-data-server/3.58/evolution-data-server-3.58.3.tar.xz : da136d1190d9e8b09499452f6058e24eee6b77f441a8c769f74a52451bf379f1
+    - https://download.gnome.org/sources/evolution-data-server/3.60/evolution-data-server-3.60.0.tar.xz : e04e383e0e28b24d91b3d373f6ffb87a5d46ba3845c7999c412cc7813adf6c18
 homepage   : https://gitlab.gnome.org/GNOME/evolution-data-server
 license    : GPL-2.0-only
 component  : desktop.gnome.core

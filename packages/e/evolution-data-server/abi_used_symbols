@@ -104,7 +104,6 @@ libc.so.6:regcomp
 libc.so.6:regerror
 libc.so.6:regexec
 libc.so.6:regfree
-libc.so.6:remove
 libc.so.6:rename
 libc.so.6:rewinddir
 libc.so.6:rmdir
@@ -316,7 +315,6 @@ libgio-2.0.so.0:g_file_new_for_uri
 libgio-2.0.so.0:g_file_new_tmp
 libgio-2.0.so.0:g_file_open_readwrite
 libgio-2.0.so.0:g_file_peek_path
-libgio-2.0.so.0:g_file_query_exists
 libgio-2.0.so.0:g_file_query_file_type
 libgio-2.0.so.0:g_file_query_info
 libgio-2.0.so.0:g_file_read
@@ -499,7 +497,6 @@ libglib-2.0.so.0:g_array_set_clear_func
 libglib-2.0.so.0:g_array_set_size
 libglib-2.0.so.0:g_array_sized_new
 libglib-2.0.so.0:g_array_unref
-libglib-2.0.so.0:g_ascii_dtostr
 libglib-2.0.so.0:g_ascii_strcasecmp
 libglib-2.0.so.0:g_ascii_strdown
 libglib-2.0.so.0:g_ascii_strncasecmp
@@ -547,6 +544,7 @@ libglib-2.0.so.0:g_bytes_ref
 libglib-2.0.so.0:g_bytes_unref
 libglib-2.0.so.0:g_bytes_unref_to_array
 libglib-2.0.so.0:g_bytes_unref_to_data
+libglib-2.0.so.0:g_canonicalize_filename
 libglib-2.0.so.0:g_checksum_free
 libglib-2.0.so.0:g_checksum_get_digest
 libglib-2.0.so.0:g_checksum_get_string
@@ -569,7 +567,6 @@ libglib-2.0.so.0:g_convert_with_fallback
 libglib-2.0.so.0:g_datalist_clear
 libglib-2.0.so.0:g_datalist_foreach
 libglib-2.0.so.0:g_datalist_get_data
-libglib-2.0.so.0:g_datalist_id_remove_no_notify
 libglib-2.0.so.0:g_datalist_id_set_data_full
 libglib-2.0.so.0:g_date_add_days
 libglib-2.0.so.0:g_date_add_months
@@ -638,7 +635,6 @@ libglib-2.0.so.0:g_get_host_name
 libglib-2.0.so.0:g_get_language_names
 libglib-2.0.so.0:g_get_locale_variants
 libglib-2.0.so.0:g_get_monotonic_time
-libglib-2.0.so.0:g_get_prgname
 libglib-2.0.so.0:g_get_real_name
 libglib-2.0.so.0:g_get_real_time
 libglib-2.0.so.0:g_get_system_config_dirs
@@ -659,7 +655,6 @@ libglib-2.0.so.0:g_hash_table_get_values
 libglib-2.0.so.0:g_hash_table_insert
 libglib-2.0.so.0:g_hash_table_iter_init
 libglib-2.0.so.0:g_hash_table_iter_next
-libglib-2.0.so.0:g_hash_table_iter_remove
 libglib-2.0.so.0:g_hash_table_lookup
 libglib-2.0.so.0:g_hash_table_lookup_extended
 libglib-2.0.so.0:g_hash_table_new
@@ -706,14 +701,12 @@ libglib-2.0.so.0:g_key_file_load_from_data
 libglib-2.0.so.0:g_key_file_load_from_file
 libglib-2.0.so.0:g_key_file_new
 libglib-2.0.so.0:g_key_file_ref
-libglib-2.0.so.0:g_key_file_remove_group
 libglib-2.0.so.0:g_key_file_save_to_file
 libglib-2.0.so.0:g_key_file_set_boolean
 libglib-2.0.so.0:g_key_file_set_int64
 libglib-2.0.so.0:g_key_file_set_integer
 libglib-2.0.so.0:g_key_file_set_string
 libglib-2.0.so.0:g_key_file_set_string_list
-libglib-2.0.so.0:g_key_file_set_uint64
 libglib-2.0.so.0:g_key_file_set_value
 libglib-2.0.so.0:g_key_file_to_data
 libglib-2.0.so.0:g_key_file_unref
@@ -771,15 +764,7 @@ libglib-2.0.so.0:g_mapped_file_get_contents
 libglib-2.0.so.0:g_mapped_file_get_length
 libglib-2.0.so.0:g_mapped_file_new
 libglib-2.0.so.0:g_mapped_file_unref
-libglib-2.0.so.0:g_markup_collect_attributes
-libglib-2.0.so.0:g_markup_error_quark
 libglib-2.0.so.0:g_markup_escape_text
-libglib-2.0.so.0:g_markup_parse_context_end_parse
-libglib-2.0.so.0:g_markup_parse_context_free
-libglib-2.0.so.0:g_markup_parse_context_new
-libglib-2.0.so.0:g_markup_parse_context_parse
-libglib-2.0.so.0:g_markup_parse_context_pop
-libglib-2.0.so.0:g_markup_parse_context_push
 libglib-2.0.so.0:g_markup_printf_escaped
 libglib-2.0.so.0:g_match_info_fetch
 libglib-2.0.so.0:g_match_info_fetch_pos
@@ -807,7 +792,6 @@ libglib-2.0.so.0:g_option_context_add_main_entries
 libglib-2.0.so.0:g_option_context_free
 libglib-2.0.so.0:g_option_context_new
 libglib-2.0.so.0:g_option_context_parse
-libglib-2.0.so.0:g_option_context_set_summary
 libglib-2.0.so.0:g_parse_debug_string
 libglib-2.0.so.0:g_path_get_basename
 libglib-2.0.so.0:g_path_get_dirname
@@ -1053,6 +1037,7 @@ libglib-2.0.so.0:g_uri_get_query
 libglib-2.0.so.0:g_uri_get_scheme
 libglib-2.0.so.0:g_uri_get_user
 libglib-2.0.so.0:g_uri_get_userinfo
+libglib-2.0.so.0:g_uri_join
 libglib-2.0.so.0:g_uri_parse
 libglib-2.0.so.0:g_uri_parse_relative
 libglib-2.0.so.0:g_uri_parse_scheme
@@ -1247,6 +1232,7 @@ libgobject-2.0.so.0:g_signal_emit
 libgobject-2.0.so.0:g_signal_emit_by_name
 libgobject-2.0.so.0:g_signal_emitv
 libgobject-2.0.so.0:g_signal_handler_disconnect
+libgobject-2.0.so.0:g_signal_handler_find
 libgobject-2.0.so.0:g_signal_handlers_block_matched
 libgobject-2.0.so.0:g_signal_handlers_disconnect_matched
 libgobject-2.0.so.0:g_signal_handlers_unblock_matched
@@ -2232,19 +2218,15 @@ libphonenumber.so.9:_ZNK4i18n12phonenumbers15PhoneNumberUtil20ParseAndKeepRawInp
 libphonenumber.so.9:_ZNK4i18n12phonenumbers15PhoneNumberUtil23GetCountryCodeForRegionERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
 libphonenumber.so.9:_ZNK4i18n12phonenumbers15PhoneNumberUtil28GetNationalSignificantNumberERKNS0_11PhoneNumberEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
 libphonenumber.so.9:_ZNK4i18n12phonenumbers15PhoneNumberUtil6FormatERKNS0_11PhoneNumberENS1_17PhoneNumberFormatEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
-libsecret-1.so.0:secret_attributes_build
 libsecret-1.so.0:secret_item_delete_sync
 libsecret-1.so.0:secret_item_get_attributes
 libsecret-1.so.0:secret_item_get_label
 libsecret-1.so.0:secret_item_get_locked
-libsecret-1.so.0:secret_item_get_secret
 libsecret-1.so.0:secret_item_set_label_sync
 libsecret-1.so.0:secret_password_clear_sync
 libsecret-1.so.0:secret_password_lookup_sync
 libsecret-1.so.0:secret_password_store_sync
 libsecret-1.so.0:secret_service_search_sync
-libsecret-1.so.0:secret_value_get
-libsecret-1.so.0:secret_value_unref
 libsmime3.so:CERT_DecodeCertFromPackage
 libsmime3.so:NSS_CMSContentInfo_GetContent
 libsmime3.so:NSS_CMSContentInfo_GetContentTypeTag
