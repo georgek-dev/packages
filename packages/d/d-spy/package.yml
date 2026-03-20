@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : d-spy
-version    : '49.2'
-release    : 8
+version    : '50.0'
+release    : 9
 source     :
-    - https://download.gnome.org/sources/d-spy/49/d-spy-49.2.tar.xz : b814ff27d828aabcda72f2c62f1b41d62035f743d06fd9a7e3c5c986c4879a69
+    - https://download.gnome.org/sources/d-spy/50/d-spy-50.0.tar.xz : 1bddc86d8a2cf67b4f652dc461ccd8353112f088753420037c75f5454deaad10
 homepage   : https://apps.gnome.org/Dspy/
 license    : GPL-3.0-or-later
 component  : system.utils

@@ -6,6 +6,7 @@ libadwaita-1.so.0:adw_about_dialog_set_designers
 libadwaita-1.so.0:adw_about_dialog_set_developers
 libadwaita-1.so.0:adw_about_dialog_set_issue_url
 libadwaita-1.so.0:adw_about_dialog_set_license_type
+libadwaita-1.so.0:adw_about_dialog_set_translator_credits
 libadwaita-1.so.0:adw_about_dialog_set_version
 libadwaita-1.so.0:adw_about_dialog_set_website
 libadwaita-1.so.0:adw_action_row_set_subtitle
