@@ -3,7 +3,6 @@ libc.so.6:__assert_fail
 libc.so.6:__cxa_atexit
 libc.so.6:__errno_location
 libc.so.6:__fprintf_chk
-libc.so.6:__isoc23_sscanf
 libc.so.6:__libc_start_main
 libc.so.6:__longjmp_chk
 libc.so.6:__sigsetjmp
@@ -217,6 +216,7 @@ libgio-2.0.so.0:g_dbus_interface_skeleton_get_type
 libgio-2.0.so.0:g_dbus_interface_skeleton_has_connection
 libgio-2.0.so.0:g_dbus_interface_skeleton_unexport
 libgio-2.0.so.0:g_dbus_interface_skeleton_unexport_from_connection
+libgio-2.0.so.0:g_dbus_method_invocation_get_method_info
 libgio-2.0.so.0:g_dbus_method_invocation_get_type
 libgio-2.0.so.0:g_dbus_method_invocation_return_error
 libgio-2.0.so.0:g_dbus_method_invocation_take_error
@@ -397,7 +397,9 @@ libgirepository-2.0.so.0:gi_type_tag_extract_ffi_return_value
 libgirepository-2.0.so.0:gi_type_tag_hash_pointer_from_argument
 libgirepository-2.0.so.0:gi_type_tag_to_string
 libgirepository-2.0.so.0:gi_union_info_find_method
+libgirepository-2.0.so.0:gi_union_info_get_field
 libgirepository-2.0.so.0:gi_union_info_get_method
+libgirepository-2.0.so.0:gi_union_info_get_n_fields
 libgirepository-2.0.so.0:gi_union_info_get_n_methods
 libgirepository-2.0.so.0:gi_union_info_get_size
 libgirepository-2.0.so.0:gi_union_info_get_type
@@ -470,6 +472,7 @@ libglib-2.0.so.0:g_hash_table_foreach_steal
 libglib-2.0.so.0:g_hash_table_insert
 libglib-2.0.so.0:g_hash_table_iter_init
 libglib-2.0.so.0:g_hash_table_iter_next
+libglib-2.0.so.0:g_hash_table_iter_steal
 libglib-2.0.so.0:g_hash_table_lookup
 libglib-2.0.so.0:g_hash_table_new
 libglib-2.0.so.0:g_hash_table_new_full
@@ -743,6 +746,7 @@ libgobject-2.0.so.0:g_param_spec_uchar
 libgobject-2.0.so.0:g_param_spec_uint
 libgobject-2.0.so.0:g_param_spec_uint64
 libgobject-2.0.so.0:g_param_spec_ulong
+libgobject-2.0.so.0:g_param_spec_unichar
 libgobject-2.0.so.0:g_param_spec_unref
 libgobject-2.0.so.0:g_param_spec_variant
 libgobject-2.0.so.0:g_pointer_type_register_static
@@ -939,6 +943,7 @@ libmozjs-140.so:_Z22JS_GetEmptyStringValueP9JSContext
 libmozjs-140.so:_Z22JS_GetPendingExceptionP9JSContextN2JS13MutableHandleINS1_5ValueEEE
 libmozjs-140.so:_Z22JS_SetNativeStackQuotaP9JSContextmmm
 libmozjs-140.so:_Z22JS_SetPendingExceptionP9JSContextN2JS6HandleINS1_5ValueEEENS1_22ExceptionStackBehaviorE
+libmozjs-140.so:_Z23JS_AtomizeAndPinStringNP9JSContextPKcm
 libmozjs-140.so:_Z23JS_DefineDebuggerObjectP9JSContextN2JS6HandleIP8JSObjectEE
 libmozjs-140.so:_Z23JS_SetSecurityCallbacksP9JSContextPK19JSSecurityCallbacks
 libmozjs-140.so:_Z24JS_AddExtraGCRootsTracerP9JSContextPFvP8JSTracerPvES3_
@@ -997,6 +1002,7 @@ libmozjs-140.so:_ZN2JS14NewArrayObjectEP9JSContextRKNS_16HandleValueArrayE
 libmozjs-140.so:_ZN2JS14NewArrayObjectEP9JSContextm
 libmozjs-140.so:_ZN2JS14NumberToBigIntEP9JSContextd
 libmozjs-140.so:_ZN2JS15FormatStackDumpEP9JSContextbbb
+libmozjs-140.so:_ZN2JS15GetBuiltinClassEP9JSContextNS_6HandleIP8JSObjectEEPN2js7ESClassE
 libmozjs-140.so:_ZN2JS15GetPromiseStateENS_6HandleIP8JSObjectEE
 libmozjs-140.so:_ZN2JS15IsPromiseObjectENS_6HandleIP8JSObjectEE
 libmozjs-140.so:_ZN2JS15JobQueueIsEmptyEP9JSContext
@@ -1157,6 +1163,7 @@ libstdc++.so.6:_ZNSo9_M_insertIdEERSoT_
 libstdc++.so.6:_ZNSo9_M_insertIlEERSoT_
 libstdc++.so.6:_ZNSo9_M_insertImEERSoT_
 libstdc++.so.6:_ZNSolsEi
+libstdc++.so.6:_ZNSt3_V216generic_categoryEv
 libstdc++.so.6:_ZNSt6localeC1Ev
 libstdc++.so.6:_ZNSt6localeD1Ev
 libstdc++.so.6:_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE7_M_syncEPcmm
