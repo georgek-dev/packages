@@ -3,8 +3,8 @@
         <Name>eog-plugins</Name>
         <Homepage>https://gitlab.gnome.org/GNOME/eog-plugins/</Homepage>
         <Packager>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <PartOf>multimedia.graphics</PartOf>
@@ -126,12 +126,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="30">
-            <Date>2025-11-01</Date>
+        <Update release="31">
+            <Date>2026-03-21</Date>
             <Version>44.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Update>
     </History>
 </PISI>
