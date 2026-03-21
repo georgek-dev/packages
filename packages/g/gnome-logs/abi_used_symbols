@@ -30,6 +30,8 @@ libgio-2.0.so.0:g_action_map_add_action_entries
 libgio-2.0.so.0:g_action_map_get_type
 libgio-2.0.so.0:g_action_map_lookup_action
 libgio-2.0.so.0:g_app_info_launch_default_for_uri
+libgio-2.0.so.0:g_app_info_launch_default_for_uri_async
+libgio-2.0.so.0:g_app_info_launch_default_for_uri_finish
 libgio-2.0.so.0:g_application_add_main_option_entries
 libgio-2.0.so.0:g_application_bind_busy_property
 libgio-2.0.so.0:g_application_get_default
@@ -59,6 +61,7 @@ libgio-2.0.so.0:g_menu_prepend_section
 libgio-2.0.so.0:g_menu_remove
 libgio-2.0.so.0:g_output_stream_close
 libgio-2.0.so.0:g_output_stream_write
+libgio-2.0.so.0:g_output_stream_write_all
 libgio-2.0.so.0:g_settings_create_action
 libgio-2.0.so.0:g_settings_get_boolean
 libgio-2.0.so.0:g_settings_get_enum
@@ -103,6 +106,8 @@ libglib-2.0.so.0:g_free
 libglib-2.0.so.0:g_get_application_name
 libglib-2.0.so.0:g_idle_add_full
 libglib-2.0.so.0:g_intern_static_string
+libglib-2.0.so.0:g_list_free_full
+libglib-2.0.so.0:g_list_prepend
 libglib-2.0.so.0:g_log
 libglib-2.0.so.0:g_malloc
 libglib-2.0.so.0:g_once_init_enter
@@ -186,6 +191,7 @@ libgobject-2.0.so.0:g_value_set_boolean
 libgobject-2.0.so.0:g_value_set_enum
 libgobject-2.0.so.0:g_value_set_object
 libgobject-2.0.so.0:g_value_set_pointer
+libgtk-4.so.1:gdk_display_get_app_launch_context
 libgtk-4.so.1:gdk_display_get_default
 libgtk-4.so.1:gtk_adjustment_new
 libgtk-4.so.1:gtk_application_get_active_window
@@ -255,15 +261,13 @@ libgtk-4.so.1:gtk_tree_model_iter_next
 libgtk-4.so.1:gtk_tree_selection_select_iter
 libgtk-4.so.1:gtk_tree_view_get_selection
 libgtk-4.so.1:gtk_tree_view_set_row_separator_func
-libgtk-4.so.1:gtk_uri_launcher_launch
-libgtk-4.so.1:gtk_uri_launcher_launch_finish
-libgtk-4.so.1:gtk_uri_launcher_new
 libgtk-4.so.1:gtk_widget_add_css_class
 libgtk-4.so.1:gtk_widget_class_bind_template_callback_full
 libgtk-4.so.1:gtk_widget_class_bind_template_child_full
 libgtk-4.so.1:gtk_widget_class_set_layout_manager_type
 libgtk-4.so.1:gtk_widget_class_set_template_from_resource
 libgtk-4.so.1:gtk_widget_get_default_direction
+libgtk-4.so.1:gtk_widget_get_display
 libgtk-4.so.1:gtk_widget_get_focus_child
 libgtk-4.so.1:gtk_widget_get_mapped
 libgtk-4.so.1:gtk_widget_get_parent
