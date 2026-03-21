@@ -181,12 +181,14 @@ libglib-2.0.so.0:g_filename_display_name
 libglib-2.0.so.0:g_filename_to_utf8
 libglib-2.0.so.0:g_find_program_in_path
 libglib-2.0.so.0:g_free
+libglib-2.0.so.0:g_free_sized
 libglib-2.0.so.0:g_get_environ
 libglib-2.0.so.0:g_get_home_dir
 libglib-2.0.so.0:g_get_host_name
 libglib-2.0.so.0:g_get_os_info
 libglib-2.0.so.0:g_getenv
 libglib-2.0.so.0:g_hash_table_add
+libglib-2.0.so.0:g_hash_table_contains
 libglib-2.0.so.0:g_hash_table_insert
 libglib-2.0.so.0:g_hash_table_iter_init
 libglib-2.0.so.0:g_hash_table_iter_next
@@ -443,6 +445,7 @@ libgtk-4.so.1:gdk_drop_read_finish
 libgtk-4.so.1:gdk_drop_read_value_async
 libgtk-4.so.1:gdk_drop_read_value_finish
 libgtk-4.so.1:gdk_file_list_get_type
+libgtk-4.so.1:gtk_accessible_announce
 libgtk-4.so.1:gtk_accessible_update_property
 libgtk-4.so.1:gtk_application_get_active_window
 libgtk-4.so.1:gtk_application_set_accels_for_action
