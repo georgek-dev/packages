@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : eog
-version    : '49.1'
-release    : 62
+version    : '50.0'
+release    : 63
 source     :
-    - https://download.gnome.org/sources/eog/49/eog-49.1.tar.xz : fadd12e14ba9cd2be6989dfbcef40001645b63440ceed8e04867b07587b066dc
+    - https://download.gnome.org/sources/eog/50/eog-50.0.tar.xz : 5c0226d10cfa13569ade2218f03ce62f79b8dc5c288e2e0b123d2ef51abdcb07
 homepage   : https://gitlab.gnome.org/GNOME/eog
 license    : GPL-2.0-only
 component  : multimedia.graphics
@@ -29,8 +29,6 @@ builddeps  :
 rundeps    :
     - webp-pixbuf-loader
 setup      : |
-    %patch -p1 -i $pkgfiles/libpeas1_pygobject352.patch
-
     %meson_configure
 build      : |
     %ninja_build
