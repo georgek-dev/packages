@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : gnome-pomodoro
-version    : 0.28.0
-release    : 22
+version    : '1.0'
+release    : 23
 source     :
-    - https://github.com/gnome-pomodoro/gnome-pomodoro/archive/refs/tags/0.28.0.tar.gz : fd03df087fc7b2e9733067b775dba56fd838883dab0ae817bebfbef59a3f7296
+    - https://github.com/gnome-pomodoro/gnome-pomodoro/archive/refs/tags/1.0.tar.gz : 1d8d6adcb83d74ae5c05a9caa988bf5dd0c2876af83d3df3588d27f2ee5cf9ab
 homepage   : https://gnomepomodoro.org/
 license    : GPL-3.0-or-later
 component  : office
@@ -17,15 +17,14 @@ builddeps  :
     - pkgconfig(gstreamer-1.0)
     - pkgconfig(gtk+-3.0)
     - pkgconfig(json-glib-1.0)
+    - pkgconfig(libadwaita-1)
     - pkgconfig(libcanberra)
-    - pkgconfig(libpeas-1.0)
+    - pkgconfig(libpeas-2)
     - pkgconfig(sqlite3)
+    - desktop-file-utils
     - gnome-common
     - vala
 setup      : |
-    # This wouldn't have done anything but this lets us skip the builddep
-    sed -i "s|update_desktop_database: true|update_desktop_database: false|g" meson.build
-
     %meson_configure
 build      : |
     %ninja_build
