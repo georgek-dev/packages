@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : sysprof
-version    : '49.0'
-release    : 19
+version    : '50.0'
+release    : 20
 source     :
-    - https://download.gnome.org/sources/sysprof/49/sysprof-49.0.tar.xz : ff04139637785c841948862087a4323b981680d942296409321b574fcb282878
+    - https://download.gnome.org/sources/sysprof/50/sysprof-50.0.tar.xz : aace44e90e90f6c34bb2fbec8ccb47b8f81103080978d65759287843c329d53a
 homepage   : https://apps.gnome.org/Sysprof/
 license    : GPL-3.0-or-later
 component  : system.utils
