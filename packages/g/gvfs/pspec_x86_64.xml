@@ -195,7 +195,7 @@
 </Description>
         <PartOf>desktop.gnome.core</PartOf>
         <RuntimeDependencies>
-            <Dependency release="109">gvfs</Dependency>
+            <Dependency release="110">gvfs</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="library">/usr/lib/systemd/user/gvfs-goa-volume-monitor.service</Path>
@@ -207,9 +207,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="109">
-            <Date>2026-03-17</Date>
-            <Version>1.58.4</Version>
+        <Update release="110">
+            <Date>2026-03-21</Date>
+            <Version>1.60.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Joey Riches</Name>
             <Email>josephriches@gmail.com</Email>
