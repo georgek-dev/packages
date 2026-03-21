@@ -10,6 +10,7 @@ libc.so.6:__progname_full
 libc.so.6:__sprintf_chk
 libc.so.6:__stack_chk_fail
 libc.so.6:calloc
+libc.so.6:clock_gettime
 libc.so.6:close
 libc.so.6:dcgettext
 libc.so.6:dlclose
@@ -17,11 +18,13 @@ libc.so.6:dlopen
 libc.so.6:dlsym
 libc.so.6:dup
 libc.so.6:fclose
+libc.so.6:fcntl64
 libc.so.6:fdopen
 libc.so.6:fileno
 libc.so.6:fputs
 libc.so.6:free
 libc.so.6:fstat64
+libc.so.6:ftruncate64
 libc.so.6:fwrite
 libc.so.6:geteuid
 libc.so.6:getgid
@@ -32,6 +35,7 @@ libc.so.6:isatty
 libc.so.6:memchr
 libc.so.6:memcmp
 libc.so.6:memcpy
+libc.so.6:memfd_create
 libc.so.6:memset
 libc.so.6:mkdir
 libc.so.6:mkdtemp
@@ -43,6 +47,7 @@ libc.so.6:pthread_mutex_lock
 libc.so.6:pthread_mutex_unlock
 libc.so.6:puts
 libc.so.6:read
+libc.so.6:realloc
 libc.so.6:recv
 libc.so.6:remove
 libc.so.6:rmdir
@@ -60,6 +65,8 @@ libc.so.6:strstr
 libc.so.6:tcgetattr
 libc.so.6:tcsetattr
 libc.so.6:time
+libc.so.6:timerfd_create
+libc.so.6:timerfd_settime
 libc.so.6:unlink
 libc.so.6:write
 libcairo.so.2:cairo_region_contains_rectangle
@@ -71,6 +78,14 @@ libcairo.so.2:cairo_region_num_rectangles
 libcairo.so.2:cairo_region_reference
 libcairo.so.2:cairo_region_status
 libcairo.so.2:cairo_region_union_rectangle
+libdrm.so.2:drmGetCap
+libdrm.so.2:drmSyncobjCreate
+libdrm.so.2:drmSyncobjDestroy
+libdrm.so.2:drmSyncobjExportSyncFile
+libdrm.so.2:drmSyncobjFDToHandle
+libdrm.so.2:drmSyncobjTimelineSignal
+libdrm.so.2:drmSyncobjTimelineWait
+libdrm.so.2:drmSyncobjTransfer
 libei.so.1:ei_configure_name
 libei.so.1:ei_device_button_button
 libei.so.1:ei_device_frame
@@ -126,8 +141,10 @@ libei.so.1:ei_unref
 libepoxy.so.0:epoxy_eglBindAPI
 libepoxy.so.0:epoxy_eglCreateContext
 libepoxy.so.0:epoxy_eglCreateImageKHR
+libepoxy.so.0:epoxy_eglCreateSync
 libepoxy.so.0:epoxy_eglDestroyContext
 libepoxy.so.0:epoxy_eglDestroyImageKHR
+libepoxy.so.0:epoxy_eglDestroySync
 libepoxy.so.0:epoxy_eglGetError
 libepoxy.so.0:epoxy_eglGetPlatformDisplayEXT
 libepoxy.so.0:epoxy_eglInitialize
@@ -137,6 +154,7 @@ libepoxy.so.0:epoxy_eglQueryDisplayAttribEXT
 libepoxy.so.0:epoxy_eglQueryDmaBufFormatsEXT
 libepoxy.so.0:epoxy_eglQueryDmaBufModifiersEXT
 libepoxy.so.0:epoxy_eglTerminate
+libepoxy.so.0:epoxy_eglWaitSync
 libepoxy.so.0:epoxy_glBindBuffer
 libepoxy.so.0:epoxy_glBindFramebuffer
 libepoxy.so.0:epoxy_glBindTexture
@@ -164,6 +182,10 @@ libfdk-aac.so.2:aacEncOpen
 libfdk-aac.so.2:aacEncoder_SetParam
 libfreerdp-server3.so.3:audin_server_context_free
 libfreerdp-server3.so.3:audin_server_context_new
+libfreerdp-server3.so.3:cam_dev_enum_server_context_free
+libfreerdp-server3.so.3:cam_dev_enum_server_context_new
+libfreerdp-server3.so.3:camera_device_server_context_free
+libfreerdp-server3.so.3:camera_device_server_context_new
 libfreerdp-server3.so.3:cliprdr_server_context_free
 libfreerdp-server3.so.3:cliprdr_server_context_new
 libfreerdp-server3.so.3:disp_server_context_free
@@ -184,6 +206,7 @@ libfreerdp3.so.3:WTSVirtualChannelManagerGetEventHandle
 libfreerdp3.so.3:WTSVirtualChannelManagerIsChannelJoined
 libfreerdp3.so.3:WTSVirtualChannelManagerSetDVCCreationCallback
 libfreerdp3.so.3:autodetect_get
+libfreerdp3.so.3:avc420_decompress
 libfreerdp3.so.3:cliprdr_parse_file_list
 libfreerdp3.so.3:crypto_base64_encode
 libfreerdp3.so.3:freerdp_certificate_free
@@ -194,6 +217,8 @@ libfreerdp3.so.3:freerdp_certificate_new_from_pem
 libfreerdp3.so.3:freerdp_key_free
 libfreerdp3.so.3:freerdp_key_new_from_file
 libfreerdp3.so.3:freerdp_key_new_from_pem
+libfreerdp3.so.3:freerdp_nla_FreeContextBuffer
+libfreerdp3.so.3:freerdp_nla_QueryContextAttributes
 libfreerdp3.so.3:freerdp_peer_context_free
 libfreerdp3.so.3:freerdp_peer_context_new
 libfreerdp3.so.3:freerdp_peer_free
@@ -210,6 +235,9 @@ libfreerdp3.so.3:freerdp_settings_set_pointer_array
 libfreerdp3.so.3:freerdp_settings_set_pointer_len
 libfreerdp3.so.3:freerdp_settings_set_string
 libfreerdp3.so.3:freerdp_settings_set_uint32
+libfreerdp3.so.3:h264_context_free
+libfreerdp3.so.3:h264_context_new
+libfreerdp3.so.3:h264_context_reset
 libfreerdp3.so.3:primitives_get
 libfreerdp3.so.3:redirection_free
 libfreerdp3.so.3:redirection_new
@@ -269,6 +297,7 @@ libgio-2.0.so.0:g_dbus_connection_call_sync
 libgio-2.0.so.0:g_dbus_connection_emit_signal
 libgio-2.0.so.0:g_dbus_connection_get_type
 libgio-2.0.so.0:g_dbus_error_quark
+libgio-2.0.so.0:g_dbus_error_register_error_domain
 libgio-2.0.so.0:g_dbus_gvalue_to_gvariant
 libgio-2.0.so.0:g_dbus_gvariant_to_gvalue
 libgio-2.0.so.0:g_dbus_interface_get_info
@@ -292,10 +321,12 @@ libgio-2.0.so.0:g_dbus_method_invocation_return_gerror
 libgio-2.0.so.0:g_dbus_method_invocation_return_value
 libgio-2.0.so.0:g_dbus_method_invocation_return_value_with_unix_fd_list
 libgio-2.0.so.0:g_dbus_object_get_interface
+libgio-2.0.so.0:g_dbus_object_get_object_path
 libgio-2.0.so.0:g_dbus_object_get_type
 libgio-2.0.so.0:g_dbus_object_manager_client_get_name_owner
 libgio-2.0.so.0:g_dbus_object_manager_client_get_type
 libgio-2.0.so.0:g_dbus_object_manager_get_object
+libgio-2.0.so.0:g_dbus_object_manager_get_objects
 libgio-2.0.so.0:g_dbus_object_manager_server_export
 libgio-2.0.so.0:g_dbus_object_manager_server_get_connection
 libgio-2.0.so.0:g_dbus_object_manager_server_new
@@ -327,10 +358,15 @@ libgio-2.0.so.0:g_file_new_for_path
 libgio-2.0.so.0:g_file_query_exists
 libgio-2.0.so.0:g_file_replace
 libgio-2.0.so.0:g_file_replace_contents
+libgio-2.0.so.0:g_inet_address_to_string
+libgio-2.0.so.0:g_inet_socket_address_get_address
+libgio-2.0.so.0:g_inet_socket_address_get_type
 libgio-2.0.so.0:g_initable_new
 libgio-2.0.so.0:g_input_stream_read
 libgio-2.0.so.0:g_io_error_from_errno
 libgio-2.0.so.0:g_io_error_quark
+libgio-2.0.so.0:g_io_stream_close
+libgio-2.0.so.0:g_io_stream_is_closed
 libgio-2.0.so.0:g_output_stream_splice
 libgio-2.0.so.0:g_output_stream_write_all
 libgio-2.0.so.0:g_permission_get_allowed
@@ -339,6 +375,7 @@ libgio-2.0.so.0:g_settings_new
 libgio-2.0.so.0:g_settings_sync
 libgio-2.0.so.0:g_simple_action_new
 libgio-2.0.so.0:g_socket_connection_factory_create_connection
+libgio-2.0.so.0:g_socket_connection_get_remote_address
 libgio-2.0.so.0:g_socket_connection_get_socket
 libgio-2.0.so.0:g_socket_connection_get_type
 libgio-2.0.so.0:g_socket_create_source
@@ -346,6 +383,7 @@ libgio-2.0.so.0:g_socket_get_fd
 libgio-2.0.so.0:g_socket_listener_add_any_inet_port
 libgio-2.0.so.0:g_socket_listener_add_inet_port
 libgio-2.0.so.0:g_socket_listener_close
+libgio-2.0.so.0:g_socket_listener_set_backlog
 libgio-2.0.so.0:g_socket_new_from_fd
 libgio-2.0.so.0:g_socket_service_get_type
 libgio-2.0.so.0:g_socket_service_stop
@@ -374,9 +412,11 @@ libglib-2.0.so.0:g_access
 libglib-2.0.so.0:g_array_append_vals
 libglib-2.0.so.0:g_array_free
 libglib-2.0.so.0:g_array_new
+libglib-2.0.so.0:g_array_remove_range
 libglib-2.0.so.0:g_array_set_size
 libglib-2.0.so.0:g_array_sized_new
 libglib-2.0.so.0:g_array_unref
+libglib-2.0.so.0:g_ascii_dtostr
 libglib-2.0.so.0:g_ascii_string_to_signed
 libglib-2.0.so.0:g_ascii_string_to_unsigned
 libglib-2.0.so.0:g_assertion_message_cmpint
@@ -418,6 +458,7 @@ libglib-2.0.so.0:g_file_set_contents
 libglib-2.0.so.0:g_file_test
 libglib-2.0.so.0:g_format_size_full
 libglib-2.0.so.0:g_free
+libglib-2.0.so.0:g_free_sized
 libglib-2.0.so.0:g_get_application_name
 libglib-2.0.so.0:g_get_monotonic_time
 libglib-2.0.so.0:g_get_prgname
@@ -476,6 +517,7 @@ libglib-2.0.so.0:g_key_file_set_value
 libglib-2.0.so.0:g_key_file_to_data
 libglib-2.0.so.0:g_key_file_unref
 libglib-2.0.so.0:g_list_append
+libglib-2.0.so.0:g_list_concat
 libglib-2.0.so.0:g_list_find
 libglib-2.0.so.0:g_list_foreach
 libglib-2.0.so.0:g_list_free
@@ -523,10 +565,15 @@ libglib-2.0.so.0:g_prefix_error
 libglib-2.0.so.0:g_print
 libglib-2.0.so.0:g_printerr
 libglib-2.0.so.0:g_propagate_error
+libglib-2.0.so.0:g_ptr_array_add
+libglib-2.0.so.0:g_ptr_array_new
+libglib-2.0.so.0:g_ptr_array_unref
+libglib-2.0.so.0:g_quark_from_static_string
 libglib-2.0.so.0:g_quark_to_string
 libglib-2.0.so.0:g_quark_try_string
 libglib-2.0.so.0:g_queue_clear_full
 libglib-2.0.so.0:g_queue_copy
+libglib-2.0.so.0:g_queue_delete_link
 libglib-2.0.so.0:g_queue_free
 libglib-2.0.so.0:g_queue_free_full
 libglib-2.0.so.0:g_queue_get_length
@@ -572,6 +619,7 @@ libglib-2.0.so.0:g_strerror
 libglib-2.0.so.0:g_strfreev
 libglib-2.0.so.0:g_strjoinv
 libglib-2.0.so.0:g_strndup
+libglib-2.0.so.0:g_strsplit
 libglib-2.0.so.0:g_strv_builder_add
 libglib-2.0.so.0:g_strv_builder_end
 libglib-2.0.so.0:g_strv_builder_new
@@ -582,7 +630,9 @@ libglib-2.0.so.0:g_thread_join
 libglib-2.0.so.0:g_thread_new
 libglib-2.0.so.0:g_timeout_add
 libglib-2.0.so.0:g_timeout_add_seconds
+libglib-2.0.so.0:g_timeout_add_seconds_once
 libglib-2.0.so.0:g_timeout_source_new
+libglib-2.0.so.0:g_unix_get_passwd_entry
 libglib-2.0.so.0:g_unix_signal_add
 libglib-2.0.so.0:g_unix_signal_source_new
 libglib-2.0.so.0:g_uri_escape_string
@@ -615,6 +665,7 @@ libglib-2.0.so.0:g_variant_n_children
 libglib-2.0.so.0:g_variant_new
 libglib-2.0.so.0:g_variant_new_boolean
 libglib-2.0.so.0:g_variant_new_handle
+libglib-2.0.so.0:g_variant_new_object_path
 libglib-2.0.so.0:g_variant_new_string
 libglib-2.0.so.0:g_variant_new_uint32
 libglib-2.0.so.0:g_variant_parse
@@ -630,6 +681,7 @@ libgobject-2.0.so.0:g_cclosure_marshal_VOID__UINT
 libgobject-2.0.so.0:g_cclosure_marshal_VOID__VARIANT
 libgobject-2.0.so.0:g_cclosure_marshal_VOID__VOID
 libgobject-2.0.so.0:g_enum_register_static
+libgobject-2.0.so.0:g_flags_register_static
 libgobject-2.0.so.0:g_object_bind_property
 libgobject-2.0.so.0:g_object_bind_property_full
 libgobject-2.0.so.0:g_object_class_find_property
@@ -638,6 +690,7 @@ libgobject-2.0.so.0:g_object_class_override_property
 libgobject-2.0.so.0:g_object_freeze_notify
 libgobject-2.0.so.0:g_object_get
 libgobject-2.0.so.0:g_object_get_property
+libgobject-2.0.so.0:g_object_get_qdata
 libgobject-2.0.so.0:g_object_interface_install_property
 libgobject-2.0.so.0:g_object_new
 libgobject-2.0.so.0:g_object_notify
@@ -646,11 +699,13 @@ libgobject-2.0.so.0:g_object_ref
 libgobject-2.0.so.0:g_object_run_dispose
 libgobject-2.0.so.0:g_object_set
 libgobject-2.0.so.0:g_object_set_property
+libgobject-2.0.so.0:g_object_set_qdata_full
 libgobject-2.0.so.0:g_object_thaw_notify
 libgobject-2.0.so.0:g_object_unref
 libgobject-2.0.so.0:g_object_weak_ref
 libgobject-2.0.so.0:g_param_spec_boolean
 libgobject-2.0.so.0:g_param_spec_enum
+libgobject-2.0.so.0:g_param_spec_flags
 libgobject-2.0.so.0:g_param_spec_int
 libgobject-2.0.so.0:g_param_spec_object
 libgobject-2.0.so.0:g_param_spec_string
@@ -678,10 +733,12 @@ libgobject-2.0.so.0:g_type_interface_peek
 libgobject-2.0.so.0:g_type_name
 libgobject-2.0.so.0:g_type_register_static_simple
 libgobject-2.0.so.0:g_value_copy
+libgobject-2.0.so.0:g_value_dup_string
 libgobject-2.0.so.0:g_value_get_boolean
 libgobject-2.0.so.0:g_value_get_boxed
 libgobject-2.0.so.0:g_value_get_double
 libgobject-2.0.so.0:g_value_get_enum
+libgobject-2.0.so.0:g_value_get_flags
 libgobject-2.0.so.0:g_value_get_int
 libgobject-2.0.so.0:g_value_get_int64
 libgobject-2.0.so.0:g_value_get_object
@@ -694,12 +751,18 @@ libgobject-2.0.so.0:g_value_init
 libgobject-2.0.so.0:g_value_peek_pointer
 libgobject-2.0.so.0:g_value_set_boolean
 libgobject-2.0.so.0:g_value_set_enum
+libgobject-2.0.so.0:g_value_set_flags
 libgobject-2.0.so.0:g_value_set_int
 libgobject-2.0.so.0:g_value_set_object
 libgobject-2.0.so.0:g_value_set_string
 libgobject-2.0.so.0:g_value_set_variant
 libgobject-2.0.so.0:g_value_take_object
 libgobject-2.0.so.0:g_value_unset
+libkrb5.so.3:krb5_aname_to_localname
+libkrb5.so.3:krb5_free_context
+libkrb5.so.3:krb5_free_principal
+libkrb5.so.3:krb5_init_context
+libkrb5.so.3:krb5_parse_name
 libm.so.6:trunc
 libnotify.so.4:notify_init
 libnotify.so.4:notify_notification_add_action
@@ -726,9 +789,11 @@ libpipewire-0.3.so.0:pw_stream_add_listener
 libpipewire-0.3.so.0:pw_stream_connect
 libpipewire-0.3.so.0:pw_stream_dequeue_buffer
 libpipewire-0.3.so.0:pw_stream_destroy
+libpipewire-0.3.so.0:pw_stream_get_nsec
 libpipewire-0.3.so.0:pw_stream_new
 libpipewire-0.3.so.0:pw_stream_queue_buffer
 libpipewire-0.3.so.0:pw_stream_set_active
+libpipewire-0.3.so.0:pw_stream_set_error
 libpipewire-0.3.so.0:pw_stream_state_as_string
 libpipewire-0.3.so.0:pw_stream_update_params
 libpolkit-gobject-1.so.0:polkit_authority_check_authorization_sync
@@ -831,6 +896,7 @@ libvulkan.so.1:vkCreatePipelineCache
 libvulkan.so.1:vkCreatePipelineLayout
 libvulkan.so.1:vkCreateQueryPool
 libvulkan.so.1:vkCreateSampler
+libvulkan.so.1:vkCreateSemaphore
 libvulkan.so.1:vkCreateShaderModule
 libvulkan.so.1:vkDestroyBuffer
 libvulkan.so.1:vkDestroyCommandPool
@@ -846,6 +912,7 @@ libvulkan.so.1:vkDestroyPipelineCache
 libvulkan.so.1:vkDestroyPipelineLayout
 libvulkan.so.1:vkDestroyQueryPool
 libvulkan.so.1:vkDestroySampler
+libvulkan.so.1:vkDestroySemaphore
 libvulkan.so.1:vkDestroyShaderModule
 libvulkan.so.1:vkEndCommandBuffer
 libvulkan.so.1:vkEnumerateDeviceExtensionProperties
@@ -858,6 +925,7 @@ libvulkan.so.1:vkGetDeviceProcAddr
 libvulkan.so.1:vkGetDeviceQueue2
 libvulkan.so.1:vkGetImageMemoryRequirements2
 libvulkan.so.1:vkGetInstanceProcAddr
+libvulkan.so.1:vkGetPhysicalDeviceExternalSemaphoreProperties
 libvulkan.so.1:vkGetPhysicalDeviceFeatures2
 libvulkan.so.1:vkGetPhysicalDeviceFormatProperties2
 libvulkan.so.1:vkGetPhysicalDeviceImageFormatProperties2
@@ -881,6 +949,7 @@ libwinpr3.so.3:ConvertUtf8ToWCharAlloc
 libwinpr3.so.3:ConvertWCharToUtf8Alloc
 libwinpr3.so.3:CreateEventA
 libwinpr3.so.3:GetKeycodeFromVirtualKeyCode
+libwinpr3.so.3:GetSecurityStatusString
 libwinpr3.so.3:GetSystemTime
 libwinpr3.so.3:GetVirtualKeyCodeFromVirtualScanCode
 libwinpr3.so.3:NTOWFv1A

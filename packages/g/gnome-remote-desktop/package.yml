@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : gnome-remote-desktop
-version    : '49.3'
-release    : 30
+version    : '50.0'
+release    : 31
 source     :
-    - https://download.gnome.org/sources/gnome-remote-desktop/49/gnome-remote-desktop-49.3.tar.xz : 1a5a7528bcd092a96d70414202d5d03650fed189e00468ef94796aac258d37b5
+    - https://download.gnome.org/sources/gnome-remote-desktop/50/gnome-remote-desktop-50.0.tar.xz : 770351afd47abffe93a488d40eff6b323d9a867fde79b38a3e8b18600c74e5f4
 homepage   : https://gitlab.gnome.org/GNOME/gnome-remote-desktop
 license    : GPL-2.0-or-later
 component  : desktop.gnome
