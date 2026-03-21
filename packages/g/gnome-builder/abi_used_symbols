@@ -589,6 +589,7 @@ libgio-2.0.so.0:g_file_resolve_relative_path
 libgio-2.0.so.0:g_file_set_attribute_string
 libgio-2.0.so.0:g_file_set_attributes_async
 libgio-2.0.so.0:g_file_set_attributes_finish
+libgio-2.0.so.0:g_file_trash
 libgio-2.0.so.0:g_file_trash_async
 libgio-2.0.so.0:g_file_trash_finish
 libgio-2.0.so.0:g_file_type_get_type
@@ -1056,6 +1057,7 @@ libglib-2.0.so.0:g_file_test
 libglib-2.0.so.0:g_find_program_in_path
 libglib-2.0.so.0:g_format_size
 libglib-2.0.so.0:g_free
+libglib-2.0.so.0:g_free_sized
 libglib-2.0.so.0:g_get_codeset
 libglib-2.0.so.0:g_get_current_dir
 libglib-2.0.so.0:g_get_environ
@@ -2915,6 +2917,7 @@ libpanel-1.so.1:panel_position_set_column
 libpanel-1.so.1:panel_position_set_depth
 libpanel-1.so.1:panel_position_set_row
 libpanel-1.so.1:panel_position_to_variant
+libpanel-1.so.1:panel_save_delegate_get_is_draft
 libpanel-1.so.1:panel_save_delegate_get_type
 libpanel-1.so.1:panel_statusbar_add_prefix
 libpanel-1.so.1:panel_statusbar_add_suffix
