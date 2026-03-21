@@ -75,9 +75,12 @@ libgdk-3.so.0:gdk_atom_intern
 libgdk-3.so.0:gdk_atom_name
 libgdk-3.so.0:gdk_cursor_new_from_name
 libgdk-3.so.0:gdk_cursor_new_from_surface
+libgdk-3.so.0:gdk_display_get_default_seat
 libgdk-3.so.0:gdk_pixbuf_get_from_surface
 libgdk-3.so.0:gdk_screen_get_default
 libgdk-3.so.0:gdk_screen_get_rgba_visual
+libgdk-3.so.0:gdk_seat_grab
+libgdk-3.so.0:gdk_seat_ungrab
 libgdk-3.so.0:gdk_visual_get_depth
 libgdk-3.so.0:gdk_window_get_state
 libgdk-3.so.0:gdk_window_set_cursor
@@ -165,6 +168,7 @@ libglib-2.0.so.0:g_error_matches
 libglib-2.0.so.0:g_error_new_literal
 libglib-2.0.so.0:g_file_set_contents
 libglib-2.0.so.0:g_free
+libglib-2.0.so.0:g_free_sized
 libglib-2.0.so.0:g_get_user_config_dir
 libglib-2.0.so.0:g_get_user_runtime_dir
 libglib-2.0.so.0:g_get_user_special_dir
@@ -430,6 +434,7 @@ libgtk-3.so.0:gtk_widget_get_display
 libgtk-3.so.0:gtk_widget_get_events
 libgtk-3.so.0:gtk_widget_get_name
 libgtk-3.so.0:gtk_widget_get_parent
+libgtk-3.so.0:gtk_widget_get_realized
 libgtk-3.so.0:gtk_widget_get_sensitive
 libgtk-3.so.0:gtk_widget_get_style_context
 libgtk-3.so.0:gtk_widget_get_type
