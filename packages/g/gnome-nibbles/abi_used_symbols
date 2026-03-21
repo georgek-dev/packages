@@ -14,6 +14,7 @@ libadwaita-1.so.0:adw_alert_dialog_add_response
 libadwaita-1.so.0:adw_alert_dialog_choose
 libadwaita-1.so.0:adw_alert_dialog_choose_finish
 libadwaita-1.so.0:adw_alert_dialog_new
+libadwaita-1.so.0:adw_alert_dialog_set_default_response
 libadwaita-1.so.0:adw_alert_dialog_set_response_appearance
 libadwaita-1.so.0:adw_application_window_get_type
 libadwaita-1.so.0:adw_button_content_new
@@ -32,6 +33,7 @@ libadwaita-1.so.0:adw_dialog_set_title
 libadwaita-1.so.0:adw_header_bar_get_title_widget
 libadwaita-1.so.0:adw_header_bar_new
 libadwaita-1.so.0:adw_header_bar_pack_end
+libadwaita-1.so.0:adw_header_bar_pack_start
 libadwaita-1.so.0:adw_header_bar_set_show_end_title_buttons
 libadwaita-1.so.0:adw_header_bar_set_title_widget
 libadwaita-1.so.0:adw_init
@@ -75,11 +77,13 @@ libgee-0.8.so.2:gee_abstract_list_set
 libgee-0.8.so.2:gee_abstract_map_clear
 libgee-0.8.so.2:gee_abstract_map_get
 libgee-0.8.so.2:gee_abstract_map_get_entries
+libgee-0.8.so.2:gee_abstract_map_get_keys
 libgee-0.8.so.2:gee_abstract_map_get_size
 libgee-0.8.so.2:gee_abstract_map_get_values
 libgee-0.8.so.2:gee_abstract_map_has_key
 libgee-0.8.so.2:gee_abstract_map_map_iterator
 libgee-0.8.so.2:gee_abstract_map_set
+libgee-0.8.so.2:gee_abstract_map_unset
 libgee-0.8.so.2:gee_array_list_new
 libgee-0.8.so.2:gee_collection_add
 libgee-0.8.so.2:gee_collection_clear
@@ -115,8 +119,11 @@ libgio-2.0.so.0:g_application_add_main_option_entries
 libgio-2.0.so.0:g_application_quit
 libgio-2.0.so.0:g_application_run
 libgio-2.0.so.0:g_file_append_to
+libgio-2.0.so.0:g_file_delete_async
+libgio-2.0.so.0:g_file_delete_finish
 libgio-2.0.so.0:g_file_enumerate_children
 libgio-2.0.so.0:g_file_enumerator_next_file
+libgio-2.0.so.0:g_file_get_path
 libgio-2.0.so.0:g_file_info_get_name
 libgio-2.0.so.0:g_file_new_for_path
 libgio-2.0.so.0:g_file_query_exists
@@ -170,6 +177,7 @@ libglib-2.0.so.0:g_error_free
 libglib-2.0.so.0:g_error_new
 libglib-2.0.so.0:g_file_error_quark
 libglib-2.0.so.0:g_free
+libglib-2.0.so.0:g_free_sized
 libglib-2.0.so.0:g_get_real_name
 libglib-2.0.so.0:g_get_user_data_dir
 libglib-2.0.so.0:g_hash_table_add
@@ -335,6 +343,7 @@ libgtk-4.so.1:gtk_buildable_get_type
 libgtk-4.so.1:gtk_builder_new
 libgtk-4.so.1:gtk_button_get_child
 libgtk-4.so.1:gtk_button_new
+libgtk-4.so.1:gtk_button_new_from_icon_name
 libgtk-4.so.1:gtk_button_new_with_label
 libgtk-4.so.1:gtk_button_set_can_shrink
 libgtk-4.so.1:gtk_button_set_child
