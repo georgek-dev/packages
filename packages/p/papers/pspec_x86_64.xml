@@ -2642,7 +2642,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="17">papers</Dependency>
+            <Dependency release="18">papers</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/papers/4.0/libdocument/pps-annotation.h</Path>
@@ -2687,6 +2687,7 @@
             <Path fileType="header">/usr/include/papers/4.0/libdocument/pps-signature.h</Path>
             <Path fileType="header">/usr/include/papers/4.0/libdocument/pps-transition-effect.h</Path>
             <Path fileType="header">/usr/include/papers/4.0/libdocument/pps-version.h</Path>
+            <Path fileType="header">/usr/include/papers/4.0/libview/context/pps-annotation-model.h</Path>
             <Path fileType="header">/usr/include/papers/4.0/libview/context/pps-annotations-context.h</Path>
             <Path fileType="header">/usr/include/papers/4.0/libview/context/pps-attachment-context.h</Path>
             <Path fileType="header">/usr/include/papers/4.0/libview/context/pps-document-model.h</Path>
@@ -2714,9 +2715,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="17">
-            <Date>2026-03-17</Date>
-            <Version>49.5</Version>
+        <Update release="18">
+            <Date>2026-03-21</Date>
+            <Version>50.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Joey Riches</Name>
             <Email>josephriches@gmail.com</Email>
