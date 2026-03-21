@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : zenity
-version    : 4.2.1
-release    : 26
+version    : 4.2.2
+release    : 27
 source     :
-    - https://download.gnome.org/sources/zenity/4.2/zenity-4.2.1.tar.xz : 5a9fd8d8316f90cb2e1a5a8f0d411eb9fcaf85957a8229ea3e803e81004a1ebd
+    - https://download.gnome.org/sources/zenity/4.2/zenity-4.2.2.tar.xz : 019186a996096ef4fc356e21577b5673f5baa3a29ac8e3d608b753371c18018d
 homepage   : https://gitlab.gnome.org/GNOME/zenity
 license    : LGPL-2.0-or-later
 component  : desktop.gnome

@@ -331,7 +331,10 @@ libgtk-4.so.1:gtk_tree_view_set_model
 libgtk-4.so.1:gtk_widget_class_bind_template_child_full
 libgtk-4.so.1:gtk_widget_class_set_layout_manager_type
 libgtk-4.so.1:gtk_widget_class_set_template_from_resource
+libgtk-4.so.1:gtk_widget_get_css_name
+libgtk-4.so.1:gtk_widget_get_first_child
 libgtk-4.so.1:gtk_widget_get_native
+libgtk-4.so.1:gtk_widget_get_next_sibling
 libgtk-4.so.1:gtk_widget_get_parent
 libgtk-4.so.1:gtk_widget_get_style_context
 libgtk-4.so.1:gtk_widget_get_type
