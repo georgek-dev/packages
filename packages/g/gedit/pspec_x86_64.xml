@@ -3,8 +3,8 @@
         <Name>gedit</Name>
         <Homepage>https://gedit-text-editor.org/</Homepage>
         <Packager>
-            <Name>Muhammad Alfi Syahrin</Name>
-            <Email>malfisya.dev@hotmail.com</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <PartOf>desktop.gnome</PartOf>
@@ -1333,7 +1333,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="64">gedit</Dependency>
+            <Dependency release="65">gedit</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/gedit-49/gedit/gedit-app-activatable.h</Path>
@@ -1399,12 +1399,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="64">
-            <Date>2026-02-15</Date>
+        <Update release="65">
+            <Date>2026-03-21</Date>
             <Version>49.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Muhammad Alfi Syahrin</Name>
-            <Email>malfisya.dev@hotmail.com</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Update>
     </History>
 </PISI>

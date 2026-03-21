@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : gedit
 version    : '49.0'
-release    : 64
+release    : 65
 source     :
     - https://gitlab.gnome.org/World/gedit/gedit/-/archive/49.0/gedit-49.0.tar.bz2 : f3437a675790c8593d511355252d751ab94328357bc6846d1106bf288161a5ed
     # libgd is a git submodule by design, but those are not included in git forges
