@@ -131,6 +131,7 @@ libglib-2.0.so.0:g_file_error_quark
 libglib-2.0.so.0:g_file_test
 libglib-2.0.so.0:g_find_program_in_path
 libglib-2.0.so.0:g_free
+libglib-2.0.so.0:g_free_sized
 libglib-2.0.so.0:g_get_user_config_dir
 libglib-2.0.so.0:g_get_user_data_dir
 libglib-2.0.so.0:g_hash_table_get_keys
