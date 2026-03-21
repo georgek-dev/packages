@@ -102,6 +102,9 @@ libtinysparql-3.0.so.0:tracker_sparql_connection_map_connection
 libtinysparql-3.0.so.0:tracker_sparql_connection_new
 libtinysparql-3.0.so.0:tracker_sparql_connection_new_async
 libtinysparql-3.0.so.0:tracker_sparql_connection_new_finish
+libtinysparql-3.0.so.0:tracker_sparql_connection_new_from_rdf
+libtinysparql-3.0.so.0:tracker_sparql_connection_new_from_rdf_async
+libtinysparql-3.0.so.0:tracker_sparql_connection_new_from_rdf_finish
 libtinysparql-3.0.so.0:tracker_sparql_connection_query
 libtinysparql-3.0.so.0:tracker_sparql_connection_query_async
 libtinysparql-3.0.so.0:tracker_sparql_connection_query_finish
@@ -438,6 +441,9 @@ tinysparql-sql:tracker_sparql_connection_map_connection
 tinysparql-sql:tracker_sparql_connection_new
 tinysparql-sql:tracker_sparql_connection_new_async
 tinysparql-sql:tracker_sparql_connection_new_finish
+tinysparql-sql:tracker_sparql_connection_new_from_rdf
+tinysparql-sql:tracker_sparql_connection_new_from_rdf_async
+tinysparql-sql:tracker_sparql_connection_new_from_rdf_finish
 tinysparql-sql:tracker_sparql_connection_query
 tinysparql-sql:tracker_sparql_connection_query_async
 tinysparql-sql:tracker_sparql_connection_query_finish

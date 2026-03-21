@@ -263,6 +263,7 @@ libglib-2.0.so.0:g_filename_display_basename
 libglib-2.0.so.0:g_filename_to_utf8
 libglib-2.0.so.0:g_find_program_in_path
 libglib-2.0.so.0:g_free
+libglib-2.0.so.0:g_free_sized
 libglib-2.0.so.0:g_get_current_dir
 libglib-2.0.so.0:g_get_language_names
 libglib-2.0.so.0:g_get_monotonic_time
@@ -298,13 +299,15 @@ libglib-2.0.so.0:g_key_file_load_from_data
 libglib-2.0.so.0:g_key_file_new
 libglib-2.0.so.0:g_key_file_unref
 libglib-2.0.so.0:g_list_append
-libglib-2.0.so.0:g_list_concat
 libglib-2.0.so.0:g_list_delete_link
 libglib-2.0.so.0:g_list_find
 libglib-2.0.so.0:g_list_free
+libglib-2.0.so.0:g_list_free_1
 libglib-2.0.so.0:g_list_free_full
+libglib-2.0.so.0:g_list_last
 libglib-2.0.so.0:g_list_prepend
 libglib-2.0.so.0:g_list_remove
+libglib-2.0.so.0:g_list_remove_link
 libglib-2.0.so.0:g_list_reverse
 libglib-2.0.so.0:g_list_sort
 libglib-2.0.so.0:g_log
@@ -524,12 +527,14 @@ libgobject-2.0.so.0:g_object_notify
 libgobject-2.0.so.0:g_object_ref
 libgobject-2.0.so.0:g_object_ref_sink
 libgobject-2.0.so.0:g_object_run_dispose
+libgobject-2.0.so.0:g_object_set
 libgobject-2.0.so.0:g_object_set_qdata_full
 libgobject-2.0.so.0:g_object_unref
 libgobject-2.0.so.0:g_object_weak_ref
 libgobject-2.0.so.0:g_object_weak_unref
 libgobject-2.0.so.0:g_param_spec_boolean
 libgobject-2.0.so.0:g_param_spec_boxed
+libgobject-2.0.so.0:g_param_spec_enum
 libgobject-2.0.so.0:g_param_spec_flags
 libgobject-2.0.so.0:g_param_spec_int
 libgobject-2.0.so.0:g_param_spec_object
@@ -565,6 +570,7 @@ libgobject-2.0.so.0:g_value_dup_variant
 libgobject-2.0.so.0:g_value_get_boolean
 libgobject-2.0.so.0:g_value_get_boxed
 libgobject-2.0.so.0:g_value_get_double
+libgobject-2.0.so.0:g_value_get_enum
 libgobject-2.0.so.0:g_value_get_flags
 libgobject-2.0.so.0:g_value_get_float
 libgobject-2.0.so.0:g_value_get_int
