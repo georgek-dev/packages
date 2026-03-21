@@ -120,7 +120,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="31">folks</Dependency>
+            <Dependency release="32">folks</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/folks/folks-dummy.h</Path>
@@ -150,8 +150,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="31">
-            <Date>2026-02-05</Date>
+        <Update release="32">
+            <Date>2026-03-21</Date>
             <Version>0.15.12</Version>
             <Comment>Packaging update</Comment>
             <Name>Joey Riches</Name>
