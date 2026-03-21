@@ -3,8 +3,8 @@
         <Name>gimp</Name>
         <Homepage>https://www.gimp.org/</Homepage>
         <Packager>
-            <Name>David Harder</Name>
-            <Email>david@davidjharder.ca</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Packager>
         <License>GPL-3.0-or-later</License>
         <PartOf>multimedia.graphics</PartOf>
@@ -5517,7 +5517,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="88">gimp</Dependency>
+            <Dependency release="89">gimp</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/gimp-3.0/libgimp/gimp.h</Path>
@@ -5778,12 +5778,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="88">
-            <Date>2026-01-28</Date>
+        <Update release="89">
+            <Date>2026-03-21</Date>
             <Version>3.0.8</Version>
             <Comment>Packaging update</Comment>
-            <Name>David Harder</Name>
-            <Email>david@davidjharder.ca</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Update>
     </History>
 </PISI>
