@@ -43,6 +43,7 @@
             <Path fileType="data">/usr/share/gnome-shell/extensions/burn-my-windows@schneegans.github.com/locale/lt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/gnome-shell/extensions/burn-my-windows@schneegans.github.com/locale/nb_NO/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/gnome-shell/extensions/burn-my-windows@schneegans.github.com/locale/nl/LC_MESSAGES/burn-my-windows.mo</Path>
+            <Path fileType="data">/usr/share/gnome-shell/extensions/burn-my-windows@schneegans.github.com/locale/ota/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/gnome-shell/extensions/burn-my-windows@schneegans.github.com/locale/pl/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/gnome-shell/extensions/burn-my-windows@schneegans.github.com/locale/pt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/gnome-shell/extensions/burn-my-windows@schneegans.github.com/locale/pt_BR/LC_MESSAGES/burn-my-windows.mo</Path>
@@ -126,6 +127,7 @@
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_aura_glow/contents/locale/lt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_aura_glow/contents/locale/nb_NO/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_aura_glow/contents/locale/nl/LC_MESSAGES/burn-my-windows.mo</Path>
+            <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_aura_glow/contents/locale/ota/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_aura_glow/contents/locale/pl/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_aura_glow/contents/locale/pt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_aura_glow/contents/locale/pt_BR/LC_MESSAGES/burn-my-windows.mo</Path>
@@ -167,6 +169,7 @@
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_doom/contents/locale/lt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_doom/contents/locale/nb_NO/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_doom/contents/locale/nl/LC_MESSAGES/burn-my-windows.mo</Path>
+            <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_doom/contents/locale/ota/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_doom/contents/locale/pl/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_doom/contents/locale/pt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_doom/contents/locale/pt_BR/LC_MESSAGES/burn-my-windows.mo</Path>
@@ -208,6 +211,7 @@
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_energize_a/contents/locale/lt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_energize_a/contents/locale/nb_NO/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_energize_a/contents/locale/nl/LC_MESSAGES/burn-my-windows.mo</Path>
+            <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_energize_a/contents/locale/ota/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_energize_a/contents/locale/pl/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_energize_a/contents/locale/pt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_energize_a/contents/locale/pt_BR/LC_MESSAGES/burn-my-windows.mo</Path>
@@ -249,6 +253,7 @@
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_energize_b/contents/locale/lt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_energize_b/contents/locale/nb_NO/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_energize_b/contents/locale/nl/LC_MESSAGES/burn-my-windows.mo</Path>
+            <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_energize_b/contents/locale/ota/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_energize_b/contents/locale/pl/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_energize_b/contents/locale/pt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_energize_b/contents/locale/pt_BR/LC_MESSAGES/burn-my-windows.mo</Path>
@@ -290,6 +295,7 @@
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_fire/contents/locale/lt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_fire/contents/locale/nb_NO/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_fire/contents/locale/nl/LC_MESSAGES/burn-my-windows.mo</Path>
+            <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_fire/contents/locale/ota/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_fire/contents/locale/pl/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_fire/contents/locale/pt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_fire/contents/locale/pt_BR/LC_MESSAGES/burn-my-windows.mo</Path>
@@ -331,6 +337,7 @@
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_focus/contents/locale/lt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_focus/contents/locale/nb_NO/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_focus/contents/locale/nl/LC_MESSAGES/burn-my-windows.mo</Path>
+            <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_focus/contents/locale/ota/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_focus/contents/locale/pl/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_focus/contents/locale/pt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_focus/contents/locale/pt_BR/LC_MESSAGES/burn-my-windows.mo</Path>
@@ -372,6 +379,7 @@
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_glide/contents/locale/lt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_glide/contents/locale/nb_NO/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_glide/contents/locale/nl/LC_MESSAGES/burn-my-windows.mo</Path>
+            <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_glide/contents/locale/ota/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_glide/contents/locale/pl/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_glide/contents/locale/pt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_glide/contents/locale/pt_BR/LC_MESSAGES/burn-my-windows.mo</Path>
@@ -413,6 +421,7 @@
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_glitch/contents/locale/lt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_glitch/contents/locale/nb_NO/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_glitch/contents/locale/nl/LC_MESSAGES/burn-my-windows.mo</Path>
+            <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_glitch/contents/locale/ota/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_glitch/contents/locale/pl/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_glitch/contents/locale/pt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_glitch/contents/locale/pt_BR/LC_MESSAGES/burn-my-windows.mo</Path>
@@ -454,6 +463,7 @@
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_hexagon/contents/locale/lt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_hexagon/contents/locale/nb_NO/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_hexagon/contents/locale/nl/LC_MESSAGES/burn-my-windows.mo</Path>
+            <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_hexagon/contents/locale/ota/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_hexagon/contents/locale/pl/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_hexagon/contents/locale/pt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_hexagon/contents/locale/pt_BR/LC_MESSAGES/burn-my-windows.mo</Path>
@@ -495,6 +505,7 @@
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_incinerate/contents/locale/lt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_incinerate/contents/locale/nb_NO/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_incinerate/contents/locale/nl/LC_MESSAGES/burn-my-windows.mo</Path>
+            <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_incinerate/contents/locale/ota/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_incinerate/contents/locale/pl/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_incinerate/contents/locale/pt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_incinerate/contents/locale/pt_BR/LC_MESSAGES/burn-my-windows.mo</Path>
@@ -536,6 +547,7 @@
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_pixel_wheel/contents/locale/lt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_pixel_wheel/contents/locale/nb_NO/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_pixel_wheel/contents/locale/nl/LC_MESSAGES/burn-my-windows.mo</Path>
+            <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_pixel_wheel/contents/locale/ota/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_pixel_wheel/contents/locale/pl/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_pixel_wheel/contents/locale/pt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_pixel_wheel/contents/locale/pt_BR/LC_MESSAGES/burn-my-windows.mo</Path>
@@ -577,6 +589,7 @@
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_pixel_wipe/contents/locale/lt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_pixel_wipe/contents/locale/nb_NO/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_pixel_wipe/contents/locale/nl/LC_MESSAGES/burn-my-windows.mo</Path>
+            <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_pixel_wipe/contents/locale/ota/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_pixel_wipe/contents/locale/pl/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_pixel_wipe/contents/locale/pt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_pixel_wipe/contents/locale/pt_BR/LC_MESSAGES/burn-my-windows.mo</Path>
@@ -618,6 +631,7 @@
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_pixelate/contents/locale/lt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_pixelate/contents/locale/nb_NO/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_pixelate/contents/locale/nl/LC_MESSAGES/burn-my-windows.mo</Path>
+            <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_pixelate/contents/locale/ota/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_pixelate/contents/locale/pl/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_pixelate/contents/locale/pt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_pixelate/contents/locale/pt_BR/LC_MESSAGES/burn-my-windows.mo</Path>
@@ -659,6 +673,7 @@
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_portal/contents/locale/lt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_portal/contents/locale/nb_NO/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_portal/contents/locale/nl/LC_MESSAGES/burn-my-windows.mo</Path>
+            <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_portal/contents/locale/ota/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_portal/contents/locale/pl/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_portal/contents/locale/pt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_portal/contents/locale/pt_BR/LC_MESSAGES/burn-my-windows.mo</Path>
@@ -700,6 +715,7 @@
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_rgbwarp/contents/locale/lt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_rgbwarp/contents/locale/nb_NO/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_rgbwarp/contents/locale/nl/LC_MESSAGES/burn-my-windows.mo</Path>
+            <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_rgbwarp/contents/locale/ota/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_rgbwarp/contents/locale/pl/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_rgbwarp/contents/locale/pt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_rgbwarp/contents/locale/pt_BR/LC_MESSAGES/burn-my-windows.mo</Path>
@@ -741,6 +757,7 @@
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_team_rocket/contents/locale/lt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_team_rocket/contents/locale/nb_NO/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_team_rocket/contents/locale/nl/LC_MESSAGES/burn-my-windows.mo</Path>
+            <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_team_rocket/contents/locale/ota/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_team_rocket/contents/locale/pl/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_team_rocket/contents/locale/pt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_team_rocket/contents/locale/pt_BR/LC_MESSAGES/burn-my-windows.mo</Path>
@@ -782,6 +799,7 @@
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_tv/contents/locale/lt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_tv/contents/locale/nb_NO/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_tv/contents/locale/nl/LC_MESSAGES/burn-my-windows.mo</Path>
+            <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_tv/contents/locale/ota/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_tv/contents/locale/pl/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_tv/contents/locale/pt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_tv/contents/locale/pt_BR/LC_MESSAGES/burn-my-windows.mo</Path>
@@ -823,6 +841,7 @@
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_tv_glitch/contents/locale/lt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_tv_glitch/contents/locale/nb_NO/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_tv_glitch/contents/locale/nl/LC_MESSAGES/burn-my-windows.mo</Path>
+            <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_tv_glitch/contents/locale/ota/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_tv_glitch/contents/locale/pl/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_tv_glitch/contents/locale/pt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_tv_glitch/contents/locale/pt_BR/LC_MESSAGES/burn-my-windows.mo</Path>
@@ -864,6 +883,7 @@
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_wisps/contents/locale/lt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_wisps/contents/locale/nb_NO/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_wisps/contents/locale/nl/LC_MESSAGES/burn-my-windows.mo</Path>
+            <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_wisps/contents/locale/ota/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_wisps/contents/locale/pl/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_wisps/contents/locale/pt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin5_effect_wisps/contents/locale/pt_BR/LC_MESSAGES/burn-my-windows.mo</Path>
@@ -905,6 +925,7 @@
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_aura_glow/contents/locale/lt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_aura_glow/contents/locale/nb_NO/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_aura_glow/contents/locale/nl/LC_MESSAGES/burn-my-windows.mo</Path>
+            <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_aura_glow/contents/locale/ota/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_aura_glow/contents/locale/pl/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_aura_glow/contents/locale/pt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_aura_glow/contents/locale/pt_BR/LC_MESSAGES/burn-my-windows.mo</Path>
@@ -946,6 +967,7 @@
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_doom/contents/locale/lt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_doom/contents/locale/nb_NO/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_doom/contents/locale/nl/LC_MESSAGES/burn-my-windows.mo</Path>
+            <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_doom/contents/locale/ota/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_doom/contents/locale/pl/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_doom/contents/locale/pt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_doom/contents/locale/pt_BR/LC_MESSAGES/burn-my-windows.mo</Path>
@@ -987,6 +1009,7 @@
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_energize_a/contents/locale/lt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_energize_a/contents/locale/nb_NO/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_energize_a/contents/locale/nl/LC_MESSAGES/burn-my-windows.mo</Path>
+            <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_energize_a/contents/locale/ota/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_energize_a/contents/locale/pl/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_energize_a/contents/locale/pt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_energize_a/contents/locale/pt_BR/LC_MESSAGES/burn-my-windows.mo</Path>
@@ -1028,6 +1051,7 @@
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_energize_b/contents/locale/lt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_energize_b/contents/locale/nb_NO/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_energize_b/contents/locale/nl/LC_MESSAGES/burn-my-windows.mo</Path>
+            <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_energize_b/contents/locale/ota/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_energize_b/contents/locale/pl/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_energize_b/contents/locale/pt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_energize_b/contents/locale/pt_BR/LC_MESSAGES/burn-my-windows.mo</Path>
@@ -1069,6 +1093,7 @@
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_fire/contents/locale/lt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_fire/contents/locale/nb_NO/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_fire/contents/locale/nl/LC_MESSAGES/burn-my-windows.mo</Path>
+            <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_fire/contents/locale/ota/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_fire/contents/locale/pl/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_fire/contents/locale/pt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_fire/contents/locale/pt_BR/LC_MESSAGES/burn-my-windows.mo</Path>
@@ -1110,6 +1135,7 @@
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_focus/contents/locale/lt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_focus/contents/locale/nb_NO/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_focus/contents/locale/nl/LC_MESSAGES/burn-my-windows.mo</Path>
+            <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_focus/contents/locale/ota/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_focus/contents/locale/pl/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_focus/contents/locale/pt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_focus/contents/locale/pt_BR/LC_MESSAGES/burn-my-windows.mo</Path>
@@ -1151,6 +1177,7 @@
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_glide/contents/locale/lt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_glide/contents/locale/nb_NO/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_glide/contents/locale/nl/LC_MESSAGES/burn-my-windows.mo</Path>
+            <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_glide/contents/locale/ota/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_glide/contents/locale/pl/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_glide/contents/locale/pt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_glide/contents/locale/pt_BR/LC_MESSAGES/burn-my-windows.mo</Path>
@@ -1192,6 +1219,7 @@
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_glitch/contents/locale/lt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_glitch/contents/locale/nb_NO/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_glitch/contents/locale/nl/LC_MESSAGES/burn-my-windows.mo</Path>
+            <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_glitch/contents/locale/ota/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_glitch/contents/locale/pl/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_glitch/contents/locale/pt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_glitch/contents/locale/pt_BR/LC_MESSAGES/burn-my-windows.mo</Path>
@@ -1233,6 +1261,7 @@
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_hexagon/contents/locale/lt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_hexagon/contents/locale/nb_NO/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_hexagon/contents/locale/nl/LC_MESSAGES/burn-my-windows.mo</Path>
+            <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_hexagon/contents/locale/ota/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_hexagon/contents/locale/pl/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_hexagon/contents/locale/pt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_hexagon/contents/locale/pt_BR/LC_MESSAGES/burn-my-windows.mo</Path>
@@ -1274,6 +1303,7 @@
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_incinerate/contents/locale/lt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_incinerate/contents/locale/nb_NO/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_incinerate/contents/locale/nl/LC_MESSAGES/burn-my-windows.mo</Path>
+            <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_incinerate/contents/locale/ota/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_incinerate/contents/locale/pl/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_incinerate/contents/locale/pt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_incinerate/contents/locale/pt_BR/LC_MESSAGES/burn-my-windows.mo</Path>
@@ -1315,6 +1345,7 @@
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_pixel_wheel/contents/locale/lt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_pixel_wheel/contents/locale/nb_NO/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_pixel_wheel/contents/locale/nl/LC_MESSAGES/burn-my-windows.mo</Path>
+            <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_pixel_wheel/contents/locale/ota/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_pixel_wheel/contents/locale/pl/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_pixel_wheel/contents/locale/pt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_pixel_wheel/contents/locale/pt_BR/LC_MESSAGES/burn-my-windows.mo</Path>
@@ -1356,6 +1387,7 @@
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_pixel_wipe/contents/locale/lt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_pixel_wipe/contents/locale/nb_NO/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_pixel_wipe/contents/locale/nl/LC_MESSAGES/burn-my-windows.mo</Path>
+            <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_pixel_wipe/contents/locale/ota/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_pixel_wipe/contents/locale/pl/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_pixel_wipe/contents/locale/pt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_pixel_wipe/contents/locale/pt_BR/LC_MESSAGES/burn-my-windows.mo</Path>
@@ -1397,6 +1429,7 @@
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_pixelate/contents/locale/lt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_pixelate/contents/locale/nb_NO/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_pixelate/contents/locale/nl/LC_MESSAGES/burn-my-windows.mo</Path>
+            <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_pixelate/contents/locale/ota/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_pixelate/contents/locale/pl/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_pixelate/contents/locale/pt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_pixelate/contents/locale/pt_BR/LC_MESSAGES/burn-my-windows.mo</Path>
@@ -1438,6 +1471,7 @@
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_portal/contents/locale/lt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_portal/contents/locale/nb_NO/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_portal/contents/locale/nl/LC_MESSAGES/burn-my-windows.mo</Path>
+            <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_portal/contents/locale/ota/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_portal/contents/locale/pl/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_portal/contents/locale/pt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_portal/contents/locale/pt_BR/LC_MESSAGES/burn-my-windows.mo</Path>
@@ -1479,6 +1513,7 @@
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_rgbwarp/contents/locale/lt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_rgbwarp/contents/locale/nb_NO/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_rgbwarp/contents/locale/nl/LC_MESSAGES/burn-my-windows.mo</Path>
+            <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_rgbwarp/contents/locale/ota/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_rgbwarp/contents/locale/pl/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_rgbwarp/contents/locale/pt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_rgbwarp/contents/locale/pt_BR/LC_MESSAGES/burn-my-windows.mo</Path>
@@ -1520,6 +1555,7 @@
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_team_rocket/contents/locale/lt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_team_rocket/contents/locale/nb_NO/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_team_rocket/contents/locale/nl/LC_MESSAGES/burn-my-windows.mo</Path>
+            <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_team_rocket/contents/locale/ota/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_team_rocket/contents/locale/pl/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_team_rocket/contents/locale/pt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_team_rocket/contents/locale/pt_BR/LC_MESSAGES/burn-my-windows.mo</Path>
@@ -1561,6 +1597,7 @@
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_tv/contents/locale/lt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_tv/contents/locale/nb_NO/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_tv/contents/locale/nl/LC_MESSAGES/burn-my-windows.mo</Path>
+            <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_tv/contents/locale/ota/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_tv/contents/locale/pl/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_tv/contents/locale/pt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_tv/contents/locale/pt_BR/LC_MESSAGES/burn-my-windows.mo</Path>
@@ -1602,6 +1639,7 @@
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_tv_glitch/contents/locale/lt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_tv_glitch/contents/locale/nb_NO/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_tv_glitch/contents/locale/nl/LC_MESSAGES/burn-my-windows.mo</Path>
+            <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_tv_glitch/contents/locale/ota/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_tv_glitch/contents/locale/pl/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_tv_glitch/contents/locale/pt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_tv_glitch/contents/locale/pt_BR/LC_MESSAGES/burn-my-windows.mo</Path>
@@ -1643,6 +1681,7 @@
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_wisps/contents/locale/lt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_wisps/contents/locale/nb_NO/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_wisps/contents/locale/nl/LC_MESSAGES/burn-my-windows.mo</Path>
+            <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_wisps/contents/locale/ota/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_wisps/contents/locale/pl/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_wisps/contents/locale/pt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/kwin6_effect_wisps/contents/locale/pt_BR/LC_MESSAGES/burn-my-windows.mo</Path>
@@ -1682,6 +1721,7 @@
             <Path fileType="data">/usr/share/kwin/effects/locale/lt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/locale/nb_NO/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/locale/nl/LC_MESSAGES/burn-my-windows.mo</Path>
+            <Path fileType="data">/usr/share/kwin/effects/locale/ota/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/locale/pl/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/locale/pt/LC_MESSAGES/burn-my-windows.mo</Path>
             <Path fileType="data">/usr/share/kwin/effects/locale/pt_BR/LC_MESSAGES/burn-my-windows.mo</Path>
@@ -1697,9 +1737,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="10">
-            <Date>2025-11-10</Date>
-            <Version>47</Version>
+        <Update release="11">
+            <Date>2026-03-21</Date>
+            <Version>48</Version>
             <Comment>Packaging update</Comment>
             <Name>Joey Riches</Name>
             <Email>josephriches@gmail.com</Email>
