@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : gnome-calendar
-version    : '49.1'
-release    : 52
+version    : '50.0'
+release    : 53
 source     :
-    - https://download.gnome.org/sources/gnome-calendar/49/gnome-calendar-49.1.tar.xz : 0c1115ab294d532c4c19f56ce0d7aee53f8ea32b1430209dd1d9eda47a83d2c2
+    - https://download.gnome.org/sources/gnome-calendar/50/gnome-calendar-50.0.tar.xz : 4b75df071a52d98fb35e647d018030129d24d9007790d02457746c98617aeab0
 homepage   : https://apps.gnome.org/Calendar/
 license    : GPL-3.0-or-later
 component  : office
