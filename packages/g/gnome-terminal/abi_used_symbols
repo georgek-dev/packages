@@ -899,6 +899,7 @@ libgtk-3.so.0:gtk_window_set_default_icon_name
 libgtk-3.so.0:gtk_window_set_geometry_hints
 libgtk-3.so.0:gtk_window_set_interactive_debugging
 libgtk-3.so.0:gtk_window_set_mnemonic_modifier
+libgtk-3.so.0:gtk_window_set_modal
 libgtk-3.so.0:gtk_window_set_resizable
 libgtk-3.so.0:gtk_window_set_role
 libgtk-3.so.0:gtk_window_set_startup_id
