@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : xviewer-plugins
 version    : 3.4.3
-release    : 4
+release    : 5
 source     :
     - https://github.com/linuxmint/xviewer-plugins/archive/refs/tags/3.4.3.tar.gz : 8811ee35312c0e70dd4a62d1bebcb5e93e987f4bff8f4d095c1f7a9751b9f4ce
 homepage   : https://github.com/linuxmint/xviewer-plugins
