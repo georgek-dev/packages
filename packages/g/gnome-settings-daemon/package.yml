@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : gnome-settings-daemon
-version    : '49.1'
-release    : 70
+version    : '50.0'
+release    : 71
 source     :
-    - https://download.gnome.org/sources/gnome-settings-daemon/49/gnome-settings-daemon-49.1.tar.xz : 2a9957fc4f91c3b9127b49484179bef485120d9c1c208e44d44e6a746e6cc1c1
+    - https://download.gnome.org/sources/gnome-settings-daemon/50/gnome-settings-daemon-50.0.tar.xz : d82b50336c98a2ed713e9716c372125bb31bdfc2dae9d95baaef4d769d614fb6
 homepage   : https://gitlab.gnome.org/GNOME/gnome-settings-daemon
 license    :
     - GPL-2.0-or-later

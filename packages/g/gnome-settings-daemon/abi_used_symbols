@@ -43,7 +43,6 @@ libc.so.6:fgets
 libc.so.6:fopen64
 libc.so.6:fwrite
 libc.so.6:getenv
-libc.so.6:getpid
 libc.so.6:getuid
 libc.so.6:ioctl
 libc.so.6:kill
@@ -171,7 +170,6 @@ libgeocode-glib-2.so.0:geocode_location_get_distance_from
 libgeocode-glib-2.so.0:geocode_location_new
 libgeocode-glib-2.so.0:geocode_place_get_country
 libgeocode-glib-2.so.0:geocode_place_get_country_code
-libgeocode-glib-2.so.0:geocode_place_get_location
 libgeocode-glib-2.so.0:geocode_reverse_new_for_location
 libgeocode-glib-2.so.0:geocode_reverse_resolve_async
 libgeocode-glib-2.so.0:geocode_reverse_resolve_finish
@@ -179,6 +177,7 @@ libgio-2.0.so.0:g_app_info_create_from_commandline
 libgio-2.0.so.0:g_app_info_get_commandline
 libgio-2.0.so.0:g_app_info_get_default_for_type
 libgio-2.0.so.0:g_app_info_get_default_for_uri_scheme
+libgio-2.0.so.0:g_app_info_get_display_name
 libgio-2.0.so.0:g_app_info_get_executable
 libgio-2.0.so.0:g_app_info_get_id
 libgio-2.0.so.0:g_app_info_get_name
@@ -284,7 +283,6 @@ libgio-2.0.so.0:g_dbus_proxy_new_sync
 libgio-2.0.so.0:g_dbus_proxy_set_cached_property
 libgio-2.0.so.0:g_dbus_proxy_set_default_timeout
 libgio-2.0.so.0:g_dbus_proxy_set_interface_info
-libgio-2.0.so.0:g_desktop_app_info_launch_uris_as_manager
 libgio-2.0.so.0:g_desktop_app_info_new
 libgio-2.0.so.0:g_drive_can_eject
 libgio-2.0.so.0:g_drive_eject_with_operation
@@ -412,12 +410,12 @@ libglib-2.0.so.0:g_array_unref
 libglib-2.0.so.0:g_ascii_dtostr
 libglib-2.0.so.0:g_ascii_strdown
 libglib-2.0.so.0:g_ascii_strncasecmp
+libglib-2.0.so.0:g_ascii_strtod
 libglib-2.0.so.0:g_ascii_table
 libglib-2.0.so.0:g_ascii_toupper
 libglib-2.0.so.0:g_assertion_message_expr
 libglib-2.0.so.0:g_build_filename
 libglib-2.0.so.0:g_build_path
-libglib-2.0.so.0:g_child_watch_add
 libglib-2.0.so.0:g_clear_error
 libglib-2.0.so.0:g_datalist_clear
 libglib-2.0.so.0:g_datalist_id_set_data_full
@@ -453,9 +451,9 @@ libglib-2.0.so.0:g_file_get_contents
 libglib-2.0.so.0:g_file_open_tmp
 libglib-2.0.so.0:g_file_set_contents
 libglib-2.0.so.0:g_file_test
-libglib-2.0.so.0:g_find_program_in_path
 libglib-2.0.so.0:g_format_size
 libglib-2.0.so.0:g_free
+libglib-2.0.so.0:g_free_sized
 libglib-2.0.so.0:g_get_home_dir
 libglib-2.0.so.0:g_get_monotonic_time
 libglib-2.0.so.0:g_get_prgname
@@ -631,7 +629,6 @@ libglib-2.0.so.0:g_strjoin
 libglib-2.0.so.0:g_strjoinv
 libglib-2.0.so.0:g_strrstr
 libglib-2.0.so.0:g_strsplit
-libglib-2.0.so.0:g_strtod
 libglib-2.0.so.0:g_strv_contains
 libglib-2.0.so.0:g_strv_length
 libglib-2.0.so.0:g_time_zone_get_identifier
@@ -826,7 +823,6 @@ libm.so.6:asin
 libm.so.6:ceil
 libm.so.6:cos
 libm.so.6:fmod
-libm.so.6:pow
 libm.so.6:round
 libm.so.6:roundf
 libm.so.6:sin
@@ -906,6 +902,7 @@ libnm.so.0:nm_connection_get_setting_wireless_security
 libnotify.so.4:notify_init
 libnotify.so.4:notify_notification_add_action
 libnotify.so.4:notify_notification_close
+libnotify.so.4:notify_notification_get_activation_app_launch_context
 libnotify.so.4:notify_notification_new
 libnotify.so.4:notify_notification_set_app_name
 libnotify.so.4:notify_notification_set_category
@@ -993,16 +990,12 @@ libpulse.so.0:pa_proplist_sets
 libpulse.so.0:pa_strerror
 libpulse.so.0:pa_sw_volume_from_dB
 libpulse.so.0:pa_sw_volume_to_dB
-libsystemd.so.0:sd_pid_get_session
-libsystemd.so.0:sd_pid_get_user_unit
 libsystemd.so.0:sd_session_get_class
 libsystemd.so.0:sd_session_is_remote
 libsystemd.so.0:sd_uid_get_display
 libupower-glib.so.3:up_client_get_critical_action
 libupower-glib.so.3:up_client_get_devices2
 libupower-glib.so.3:up_client_get_display_device
-libupower-glib.so.3:up_client_get_lid_is_closed
-libupower-glib.so.3:up_client_get_lid_is_present
 libupower-glib.so.3:up_client_get_on_battery
 libupower-glib.so.3:up_client_new
 libupower-glib.so.3:up_client_new_full
