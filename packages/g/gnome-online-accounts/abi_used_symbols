@@ -71,6 +71,7 @@ libc.so.6:bind_textdomain_codeset
 libc.so.6:bindtextdomain
 libc.so.6:close
 libc.so.6:dcgettext
+libc.so.6:getpid
 libc.so.6:ioctl
 libc.so.6:memcmp
 libc.so.6:memmove
@@ -322,6 +323,7 @@ libglib-2.0.so.0:g_error_matches
 libglib-2.0.so.0:g_file_error_quark
 libglib-2.0.so.0:g_file_get_contents
 libglib-2.0.so.0:g_free
+libglib-2.0.so.0:g_free_sized
 libglib-2.0.so.0:g_get_monotonic_time
 libglib-2.0.so.0:g_get_real_name
 libglib-2.0.so.0:g_get_real_time
