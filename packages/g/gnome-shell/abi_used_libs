@@ -22,10 +22,10 @@ libgtk-4.so.1
 libical-glib.so.3
 libjson-glib-1.0.so.0
 libm.so.6
-libmutter-17.so.0
-libmutter-clutter-17.so.0
-libmutter-cogl-17.so.0
-libmutter-mtk-17.so.0
+libmutter-18.so.0
+libmutter-clutter-18.so.0
+libmutter-cogl-18.so.0
+libmutter-mtk-18.so.0
 libnm.so.0
 libpango-1.0.so.0
 libpipewire-0.3.so.0

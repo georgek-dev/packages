@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : gnome-shell
-version    : '49.5'
-release    : 136
+version    : '50.0'
+release    : 137
 source     :
-    - https://download.gnome.org/sources/gnome-shell/49/gnome-shell-49.5.tar.xz : 640552fc5cf13095e115dfa0b73af4b4d8693058d0766bfa15e08e4f5eff0068
+    - https://download.gnome.org/sources/gnome-shell/50/gnome-shell-50.0.tar.xz : 85952fbd4929cfe613b876b2237e0d13464b0c2788b8a9867fb51c260255b0e3
 homepage   : https://gitlab.gnome.org/GNOME/gnome-shell
 license    : GPL-2.0-or-later
 component  : desktop.gnome
