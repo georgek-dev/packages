@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : mutter
-version    : '49.5'
-release    : 143
+version    : '50.0'
+release    : 144
 source     :
-    - https://download.gnome.org/sources/mutter/49/mutter-49.5.tar.xz : f38b7eed6d4cd13adc48b2deb9d42ffb4b92026a9b03f8a66f0f6ccd55cf3b8f
+    - https://download.gnome.org/sources/mutter/50/mutter-50.0.tar.xz : 9870595023a9aafde4bdc11f7a8a6c475d1382ea56b369c76237bdeead72165b
 homepage   : https://gitlab.gnome.org/GNOME/mutter
 license    : GPL-2.0-or-later
 component  : desktop.gnome
@@ -39,7 +39,6 @@ builddeps  :
     - pkgconfig(xcursor)
     - pkgconfig(xkbfile)
     - pkgconfig(xkeyboard-config)
-    - pkgconfig(xorg-server)
     - pkgconfig(xtst)
     - pkgconfig(xwayland)
     - python-argcomplete
@@ -59,8 +58,7 @@ setup      : |
         -Dprofiler=false \
         -Dremote_desktop=true \
         -Dtests=disabled \
-        -Dwayland_eglstream=true \
-        -Dx11=true
+        -Dwayland_eglstream=true
 build      : |
     %ninja_build
 install    : |
