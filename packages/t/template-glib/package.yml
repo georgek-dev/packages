@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : template-glib
-version    : 3.38.0
-release    : 13
+version    : 3.40.0
+release    : 14
 source     :
-    - https://download.gnome.org/sources/template-glib/3.38/template-glib-3.38.0.tar.xz : 40d00dc223dcf2eb7f2ec422f7dec5a67373a0ca1101abca0f49c62f050cb312
+    - https://download.gnome.org/sources/template-glib/3.40/template-glib-3.40.0.tar.xz : e533ec2f6c24cc6df66ac55ac824fadd1b4a5f433a11cbf3a6b25815c0cfcfd5
 homepage   : https://gitlab.gnome.org/GNOME/template-glib
 license    : LGPL-2.1-or-later
 component  : programming.library

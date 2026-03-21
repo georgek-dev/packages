@@ -19,6 +19,7 @@ libc.so.6:realloc
 libc.so.6:stderr
 libc.so.6:stdin
 libc.so.6:stdout
+libc.so.6:strcasecmp
 libc.so.6:strcmp
 libc.so.6:strlen
 libc.so.6:strstr
@@ -236,6 +237,7 @@ libgobject-2.0.so.0:g_value_init
 libgobject-2.0.so.0:g_value_set_boolean
 libgobject-2.0.so.0:g_value_set_boxed
 libgobject-2.0.so.0:g_value_set_double
+libgobject-2.0.so.0:g_value_set_enum
 libgobject-2.0.so.0:g_value_set_float
 libgobject-2.0.so.0:g_value_set_gtype
 libgobject-2.0.so.0:g_value_set_int

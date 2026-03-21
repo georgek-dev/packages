@@ -32,6 +32,7 @@ libtemplate_glib-1.0.so.0:tmpl_expr_new_symbol_assign
 libtemplate_glib-1.0.so.0:tmpl_expr_new_symbol_ref
 libtemplate_glib-1.0.so.0:tmpl_expr_new_user_fn_call
 libtemplate_glib-1.0.so.0:tmpl_expr_node_get_expr
+libtemplate_glib-1.0.so.0:tmpl_expr_node_get_silence
 libtemplate_glib-1.0.so.0:tmpl_expr_node_get_type
 libtemplate_glib-1.0.so.0:tmpl_expr_node_new
 libtemplate_glib-1.0.so.0:tmpl_expr_parser__create_buffer
