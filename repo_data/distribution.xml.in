@@ -4268,6 +4268,14 @@
 		<Package>vocal</Package>
 		<Package>vocal-dbginfo</Package>
 
+		<!-- GNOME X11 is dead jim -->
+		<Package>gnome-session-shell-x11</Package>
+
+		<!-- All users have updated -->
+		<Package>libgnome-games-support-1</Package>
+		<Package>libgnome-games-support-1-dbginfo</Package>
+		<Package>libgnome-games-support-1-devel</Package>
+
 		<!-- Nothing uses these anymore -->
 		<Package>gstreamer-0.10</Package>
 		<Package>gstreamer-0.10-32bit</Package>

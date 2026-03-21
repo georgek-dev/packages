@@ -3108,6 +3108,10 @@
 		<Package>bsdiff-devel</Package>
 		<Package>vocal</Package>
 		<Package>vocal-dbginfo</Package>
+		<Package>gnome-session-shell-x11</Package>
+		<Package>libgnome-games-support-1</Package>
+		<Package>libgnome-games-support-1-dbginfo</Package>
+		<Package>libgnome-games-support-1-devel</Package>
 		<Package>gstreamer-0.10</Package>
 		<Package>gstreamer-0.10-32bit</Package>
 		<Package>gstreamer-0.10-32bit-dbginfo</Package>
