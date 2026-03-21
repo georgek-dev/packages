@@ -150,6 +150,7 @@ libgio-2.0.so.0:g_list_store_splice
 libgio-2.0.so.0:g_loadable_icon_load
 libgio-2.0.so.0:g_output_stream_splice
 libgio-2.0.so.0:g_settings_bind
+libgio-2.0.so.0:g_settings_bind_with_mapping
 libgio-2.0.so.0:g_settings_get_boolean
 libgio-2.0.so.0:g_settings_get_enum
 libgio-2.0.so.0:g_settings_get_string
@@ -193,6 +194,7 @@ libglib-2.0.so.0:g_assertion_message_cmpnum
 libglib-2.0.so.0:g_assertion_message_expr
 libglib-2.0.so.0:g_build_filename
 libglib-2.0.so.0:g_clear_error
+libglib-2.0.so.0:g_close
 libglib-2.0.so.0:g_datalist_clear
 libglib-2.0.so.0:g_datalist_id_set_data_full
 libglib-2.0.so.0:g_date_time_format
@@ -358,6 +360,7 @@ libglib-2.0.so.0:g_variant_get
 libglib-2.0.so.0:g_variant_get_boolean
 libglib-2.0.so.0:g_variant_get_child
 libglib-2.0.so.0:g_variant_get_child_value
+libglib-2.0.so.0:g_variant_get_double
 libglib-2.0.so.0:g_variant_get_handle
 libglib-2.0.so.0:g_variant_get_int32
 libglib-2.0.so.0:g_variant_get_int64
@@ -438,6 +441,7 @@ libgobject-2.0.so.0:g_signal_emit
 libgobject-2.0.so.0:g_signal_emit_by_name
 libgobject-2.0.so.0:g_signal_emitv
 libgobject-2.0.so.0:g_signal_handler_disconnect
+libgobject-2.0.so.0:g_signal_handlers_disconnect_matched
 libgobject-2.0.so.0:g_signal_lookup
 libgobject-2.0.so.0:g_signal_new
 libgobject-2.0.so.0:g_strv_get_type
@@ -467,6 +471,8 @@ libgobject-2.0.so.0:g_value_get_variant
 libgobject-2.0.so.0:g_value_init
 libgobject-2.0.so.0:g_value_peek_pointer
 libgobject-2.0.so.0:g_value_set_boolean
+libgobject-2.0.so.0:g_value_set_enum
+libgobject-2.0.so.0:g_value_set_int
 libgobject-2.0.so.0:g_value_set_object
 libgobject-2.0.so.0:g_value_set_string
 libgobject-2.0.so.0:g_value_set_uint64
@@ -592,6 +598,7 @@ libgtk-4.so.1:gtk_print_unix_dialog_set_page_setup
 libgtk-4.so.1:gtk_print_unix_dialog_set_settings
 libgtk-4.so.1:gtk_recent_manager_add_item
 libgtk-4.so.1:gtk_recent_manager_get_default
+libgtk-4.so.1:gtk_settings_get_default
 libgtk-4.so.1:gtk_stack_set_visible_child
 libgtk-4.so.1:gtk_stack_set_visible_child_name
 libgtk-4.so.1:gtk_style_context_add_provider_for_display
