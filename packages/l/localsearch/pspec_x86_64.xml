@@ -3,8 +3,8 @@
         <Name>localsearch</Name>
         <Homepage>https://tracker.gnome.org/</Homepage>
         <Packager>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Packager>
         <License>BSD-3-Clause</License>
         <License>GPL-2.0-only</License>
@@ -31,7 +31,6 @@
             <Path fileType="library">/usr/lib64/localsearch-3.0/extract-modules/libextract-desktop.so</Path>
             <Path fileType="library">/usr/lib64/localsearch-3.0/extract-modules/libextract-disc-generic.so</Path>
             <Path fileType="library">/usr/lib64/localsearch-3.0/extract-modules/libextract-dummy.so</Path>
-            <Path fileType="library">/usr/lib64/localsearch-3.0/extract-modules/libextract-epub.so</Path>
             <Path fileType="library">/usr/lib64/localsearch-3.0/extract-modules/libextract-gif.so</Path>
             <Path fileType="library">/usr/lib64/localsearch-3.0/extract-modules/libextract-html.so</Path>
             <Path fileType="library">/usr/lib64/localsearch-3.0/extract-modules/libextract-icon.so</Path>
@@ -39,9 +38,7 @@
             <Path fileType="library">/usr/lib64/localsearch-3.0/extract-modules/libextract-jpeg.so</Path>
             <Path fileType="library">/usr/lib64/localsearch-3.0/extract-modules/libextract-libav.so</Path>
             <Path fileType="library">/usr/lib64/localsearch-3.0/extract-modules/libextract-mp3.so</Path>
-            <Path fileType="library">/usr/lib64/localsearch-3.0/extract-modules/libextract-msoffice-xml.so</Path>
             <Path fileType="library">/usr/lib64/localsearch-3.0/extract-modules/libextract-msoffice.so</Path>
-            <Path fileType="library">/usr/lib64/localsearch-3.0/extract-modules/libextract-oasis.so</Path>
             <Path fileType="library">/usr/lib64/localsearch-3.0/extract-modules/libextract-pdf.so</Path>
             <Path fileType="library">/usr/lib64/localsearch-3.0/extract-modules/libextract-playlist.so</Path>
             <Path fileType="library">/usr/lib64/localsearch-3.0/extract-modules/libextract-png.so</Path>
@@ -62,9 +59,11 @@
             <Path fileType="library">/usr/lib64/localsearch-3.0/trackertestutils/sandbox.py</Path>
             <Path fileType="library">/usr/lib64/localsearch-3.0/trackertestutils/storehelper.py</Path>
             <Path fileType="library">/usr/lib64/localsearch-3.0/writeback-modules/libwriteback-gstreamer.so</Path>
+            <Path fileType="library">/usr/lib64/localsearch-3.0/writeback-modules/libwriteback-playlist.so</Path>
             <Path fileType="library">/usr/lib64/localsearch-3.0/writeback-modules/libwriteback-xmp.so</Path>
             <Path fileType="library">/usr/lib64/localsearch/localsearch-3</Path>
             <Path fileType="library">/usr/lib64/localsearch/localsearch-control-3</Path>
+            <Path fileType="library">/usr/lib64/localsearch/localsearch-endpoint-3</Path>
             <Path fileType="library">/usr/lib64/localsearch/localsearch-extractor-3</Path>
             <Path fileType="library">/usr/lib64/localsearch/localsearch-writeback-3</Path>
             <Path fileType="data">/usr/share/bash-completion/completions/localsearch</Path>
@@ -155,7 +154,6 @@
             <Path fileType="data">/usr/share/localsearch3/extract-rules/10-comics.rule</Path>
             <Path fileType="data">/usr/share/localsearch3/extract-rules/10-desktop.rule</Path>
             <Path fileType="data">/usr/share/localsearch3/extract-rules/10-ebooks.rule</Path>
-            <Path fileType="data">/usr/share/localsearch3/extract-rules/10-epub.rule</Path>
             <Path fileType="data">/usr/share/localsearch3/extract-rules/10-folder.rule</Path>
             <Path fileType="data">/usr/share/localsearch3/extract-rules/10-gif.rule</Path>
             <Path fileType="data">/usr/share/localsearch3/extract-rules/10-html.rule</Path>
@@ -163,7 +161,6 @@
             <Path fileType="data">/usr/share/localsearch3/extract-rules/10-jpeg.rule</Path>
             <Path fileType="data">/usr/share/localsearch3/extract-rules/10-mp3.rule</Path>
             <Path fileType="data">/usr/share/localsearch3/extract-rules/10-msoffice.rule</Path>
-            <Path fileType="data">/usr/share/localsearch3/extract-rules/10-oasis.rule</Path>
             <Path fileType="data">/usr/share/localsearch3/extract-rules/10-pdf.rule</Path>
             <Path fileType="data">/usr/share/localsearch3/extract-rules/10-png.rule</Path>
             <Path fileType="data">/usr/share/localsearch3/extract-rules/10-ps.rule</Path>
@@ -172,7 +169,6 @@
             <Path fileType="data">/usr/share/localsearch3/extract-rules/10-tiff.rule</Path>
             <Path fileType="data">/usr/share/localsearch3/extract-rules/10-xps.rule</Path>
             <Path fileType="data">/usr/share/localsearch3/extract-rules/11-iso.rule</Path>
-            <Path fileType="data">/usr/share/localsearch3/extract-rules/11-msoffice-xml.rule</Path>
             <Path fileType="data">/usr/share/localsearch3/extract-rules/15-executable.rule</Path>
             <Path fileType="data">/usr/share/localsearch3/extract-rules/15-games.rule</Path>
             <Path fileType="data">/usr/share/localsearch3/extract-rules/15-libav-guess.rule</Path>
@@ -181,7 +177,6 @@
             <Path fileType="data">/usr/share/localsearch3/extract-rules/90-disc-generic.rule</Path>
             <Path fileType="data">/usr/share/localsearch3/extract-rules/90-libav-audio-generic.rule</Path>
             <Path fileType="data">/usr/share/localsearch3/extract-rules/90-libav-video-generic.rule</Path>
-            <Path fileType="data">/usr/share/localsearch3/miners/org.freedesktop.Tracker3.Miner.Files.service</Path>
             <Path fileType="man">/usr/share/man/man1/localsearch-3.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/localsearch-extract.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/localsearch-index.1.zst</Path>
@@ -200,12 +195,12 @@
         </Replaces>
     </Package>
     <History>
-        <Update release="10">
-            <Date>2026-03-17</Date>
-            <Version>3.10.2</Version>
+        <Update release="11">
+            <Date>2026-03-21</Date>
+            <Version>3.11.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Update>
     </History>
 </PISI>
