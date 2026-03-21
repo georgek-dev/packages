@@ -65,6 +65,38 @@
             <Path fileType="doc">/usr/share/help/C/gnome-calculator/superscript.page</Path>
             <Path fileType="doc">/usr/share/help/C/gnome-calculator/trigonometry.page</Path>
             <Path fileType="doc">/usr/share/help/C/gnome-calculator/variables.page</Path>
+            <Path fileType="doc">/usr/share/help/bg/gnome-calculator/absolute.page</Path>
+            <Path fileType="doc">/usr/share/help/bg/gnome-calculator/base.page</Path>
+            <Path fileType="doc">/usr/share/help/bg/gnome-calculator/boolean.page</Path>
+            <Path fileType="doc">/usr/share/help/bg/gnome-calculator/complex.page</Path>
+            <Path fileType="doc">/usr/share/help/bg/gnome-calculator/conv-base.page</Path>
+            <Path fileType="doc">/usr/share/help/bg/gnome-calculator/conv-character.page</Path>
+            <Path fileType="doc">/usr/share/help/bg/gnome-calculator/conv-currency.page</Path>
+            <Path fileType="doc">/usr/share/help/bg/gnome-calculator/conv-length.page</Path>
+            <Path fileType="doc">/usr/share/help/bg/gnome-calculator/conv-time.page</Path>
+            <Path fileType="doc">/usr/share/help/bg/gnome-calculator/conv-weight.page</Path>
+            <Path fileType="doc">/usr/share/help/bg/gnome-calculator/equation.page</Path>
+            <Path fileType="doc">/usr/share/help/bg/gnome-calculator/factorial.page</Path>
+            <Path fileType="doc">/usr/share/help/bg/gnome-calculator/factorize.page</Path>
+            <Path fileType="doc">/usr/share/help/bg/gnome-calculator/figures/org.gnome.Calculator.svg</Path>
+            <Path fileType="doc">/usr/share/help/bg/gnome-calculator/financial.page</Path>
+            <Path fileType="doc">/usr/share/help/bg/gnome-calculator/functions.page</Path>
+            <Path fileType="doc">/usr/share/help/bg/gnome-calculator/history.page</Path>
+            <Path fileType="doc">/usr/share/help/bg/gnome-calculator/index.page</Path>
+            <Path fileType="doc">/usr/share/help/bg/gnome-calculator/keyboard.page</Path>
+            <Path fileType="doc">/usr/share/help/bg/gnome-calculator/legal.xml</Path>
+            <Path fileType="doc">/usr/share/help/bg/gnome-calculator/logarithm.page</Path>
+            <Path fileType="doc">/usr/share/help/bg/gnome-calculator/mode-programming.page</Path>
+            <Path fileType="doc">/usr/share/help/bg/gnome-calculator/modulus.page</Path>
+            <Path fileType="doc">/usr/share/help/bg/gnome-calculator/mouse.page</Path>
+            <Path fileType="doc">/usr/share/help/bg/gnome-calculator/number-display.page</Path>
+            <Path fileType="doc">/usr/share/help/bg/gnome-calculator/percentage.page</Path>
+            <Path fileType="doc">/usr/share/help/bg/gnome-calculator/power.page</Path>
+            <Path fileType="doc">/usr/share/help/bg/gnome-calculator/rounding.page</Path>
+            <Path fileType="doc">/usr/share/help/bg/gnome-calculator/scientific.page</Path>
+            <Path fileType="doc">/usr/share/help/bg/gnome-calculator/superscript.page</Path>
+            <Path fileType="doc">/usr/share/help/bg/gnome-calculator/trigonometry.page</Path>
+            <Path fileType="doc">/usr/share/help/bg/gnome-calculator/variables.page</Path>
             <Path fileType="doc">/usr/share/help/ca/gnome-calculator/absolute.page</Path>
             <Path fileType="doc">/usr/share/help/ca/gnome-calculator/base.page</Path>
             <Path fileType="doc">/usr/share/help/ca/gnome-calculator/boolean.page</Path>
@@ -513,6 +545,38 @@
             <Path fileType="doc">/usr/share/help/ja/gnome-calculator/superscript.page</Path>
             <Path fileType="doc">/usr/share/help/ja/gnome-calculator/trigonometry.page</Path>
             <Path fileType="doc">/usr/share/help/ja/gnome-calculator/variables.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/gnome-calculator/absolute.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/gnome-calculator/base.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/gnome-calculator/boolean.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/gnome-calculator/complex.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/gnome-calculator/conv-base.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/gnome-calculator/conv-character.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/gnome-calculator/conv-currency.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/gnome-calculator/conv-length.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/gnome-calculator/conv-time.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/gnome-calculator/conv-weight.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/gnome-calculator/equation.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/gnome-calculator/factorial.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/gnome-calculator/factorize.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/gnome-calculator/figures/org.gnome.Calculator.svg</Path>
+            <Path fileType="doc">/usr/share/help/kk/gnome-calculator/financial.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/gnome-calculator/functions.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/gnome-calculator/history.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/gnome-calculator/index.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/gnome-calculator/keyboard.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/gnome-calculator/legal.xml</Path>
+            <Path fileType="doc">/usr/share/help/kk/gnome-calculator/logarithm.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/gnome-calculator/mode-programming.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/gnome-calculator/modulus.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/gnome-calculator/mouse.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/gnome-calculator/number-display.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/gnome-calculator/percentage.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/gnome-calculator/power.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/gnome-calculator/rounding.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/gnome-calculator/scientific.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/gnome-calculator/superscript.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/gnome-calculator/trigonometry.page</Path>
+            <Path fileType="doc">/usr/share/help/kk/gnome-calculator/variables.page</Path>
             <Path fileType="doc">/usr/share/help/ko/gnome-calculator/absolute.page</Path>
             <Path fileType="doc">/usr/share/help/ko/gnome-calculator/base.page</Path>
             <Path fileType="doc">/usr/share/help/ko/gnome-calculator/boolean.page</Path>
@@ -1112,6 +1176,7 @@
             <Path fileType="localedata">/usr/share/locale/kn/LC_MESSAGES/gnome-calculator.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ko/LC_MESSAGES/gnome-calculator.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ku/LC_MESSAGES/gnome-calculator.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/kw/LC_MESSAGES/gnome-calculator.mo</Path>
             <Path fileType="localedata">/usr/share/locale/lt/LC_MESSAGES/gnome-calculator.mo</Path>
             <Path fileType="localedata">/usr/share/locale/lv/LC_MESSAGES/gnome-calculator.mo</Path>
             <Path fileType="localedata">/usr/share/locale/mai/LC_MESSAGES/gnome-calculator.mo</Path>
@@ -1151,6 +1216,7 @@
             <Path fileType="localedata">/usr/share/locale/tr/LC_MESSAGES/gnome-calculator.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ug/LC_MESSAGES/gnome-calculator.mo</Path>
             <Path fileType="localedata">/usr/share/locale/uk/LC_MESSAGES/gnome-calculator.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/uz/LC_MESSAGES/gnome-calculator.mo</Path>
             <Path fileType="localedata">/usr/share/locale/vi/LC_MESSAGES/gnome-calculator.mo</Path>
             <Path fileType="localedata">/usr/share/locale/xh/LC_MESSAGES/gnome-calculator.mo</Path>
             <Path fileType="localedata">/usr/share/locale/zh_CN/LC_MESSAGES/gnome-calculator.mo</Path>
@@ -1168,7 +1234,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="46">gnome-calculator</Dependency>
+            <Dependency release="47">gnome-calculator</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/gcalc-2/gcalc/gcalc.h</Path>
@@ -1186,9 +1252,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="46">
-            <Date>2025-11-26</Date>
-            <Version>49.2</Version>
+        <Update release="47">
+            <Date>2026-03-21</Date>
+            <Version>50.0</Version>
             <Comment>Packaging update</Comment>
             <Name>Joey Riches</Name>
             <Email>josephriches@gmail.com</Email>

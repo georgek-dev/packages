@@ -202,6 +202,7 @@ libglib-2.0.so.0:g_file_get_contents
 libglib-2.0.so.0:g_file_set_contents
 libglib-2.0.so.0:g_file_test
 libglib-2.0.so.0:g_free
+libglib-2.0.so.0:g_free_sized
 libglib-2.0.so.0:g_get_user_cache_dir
 libglib-2.0.so.0:g_get_user_data_dir
 libglib-2.0.so.0:g_hash_table_add
@@ -235,6 +236,7 @@ libglib-2.0.so.0:g_main_context_iteration
 libglib-2.0.so.0:g_malloc
 libglib-2.0.so.0:g_malloc0
 libglib-2.0.so.0:g_malloc0_n
+libglib-2.0.so.0:g_memdup2
 libglib-2.0.so.0:g_mkdir_with_parents
 libglib-2.0.so.0:g_once_init_enter
 libglib-2.0.so.0:g_once_init_leave
@@ -360,6 +362,7 @@ libgobject-2.0.so.0:g_cclosure_marshal_VOID__VOID
 libgobject-2.0.so.0:g_enum_get_value
 libgobject-2.0.so.0:g_enum_get_value_by_nick
 libgobject-2.0.so.0:g_enum_register_static
+libgobject-2.0.so.0:g_enum_to_string
 libgobject-2.0.so.0:g_initially_unowned_get_type
 libgobject-2.0.so.0:g_object_bind_property_with_closures
 libgobject-2.0.so.0:g_object_class_install_property
@@ -552,7 +555,6 @@ libgtk-4.so.1:gtk_scrolled_window_set_child
 libgtk-4.so.1:gtk_scrolled_window_set_max_content_height
 libgtk-4.so.1:gtk_scrolled_window_set_propagate_natural_height
 libgtk-4.so.1:gtk_selection_model_select_item
-libgtk-4.so.1:gtk_show_uri
 libgtk-4.so.1:gtk_signal_list_item_factory_new
 libgtk-4.so.1:gtk_spin_button_get_value_as_int
 libgtk-4.so.1:gtk_spin_button_set_increments
