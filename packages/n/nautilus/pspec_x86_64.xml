@@ -3,8 +3,8 @@
         <Name>nautilus</Name>
         <Homepage>https://apps.gnome.org/Nautilus/</Homepage>
         <Packager>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Packager>
         <License>GPL-3.0-or-later</License>
         <PartOf>desktop.gnome</PartOf>
@@ -20,7 +20,7 @@
 </Description>
         <PartOf>desktop.gnome</PartOf>
         <RuntimeDependencies>
-            <Dependency release="105">nautilus-extension</Dependency>
+            <Dependency release="106">nautilus-extension</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="executable">/usr/bin/nautilus</Path>
@@ -186,7 +186,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency releaseFrom="105">nautilus-extension</Dependency>
+            <Dependency releaseFrom="106">nautilus-extension</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/nautilus/libnautilus-extension/nautilus-column-provider.h</Path>
@@ -208,12 +208,12 @@
         </Replaces>
     </Package>
     <History>
-        <Update release="105">
-            <Date>2026-03-17</Date>
-            <Version>49.5</Version>
+        <Update release="106">
+            <Date>2026-03-21</Date>
+            <Version>50.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Update>
     </History>
 </PISI>
