@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : loupe
-version    : '49.2'
-release    : 10
+version    : '50.0'
+release    : 11
 source     :
-    - https://download.gnome.org/sources/loupe/49/loupe-49.2.tar.xz : 5853e75cceba7fa2bea01be273cd2f0a3061941e7bdfe3a008b233171067142c
+    - https://download.gnome.org/sources/loupe/50/loupe-50.0.tar.xz : 7ae4fbae5e19316aa640c56f80dc5a791448a62dd8f0ff06e29a58bad813a994
 homepage   : https://apps.gnome.org/Loupe/
 license    : GPL-3.0-or-later
 component  : desktop.gnome
