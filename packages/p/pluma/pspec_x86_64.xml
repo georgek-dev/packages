@@ -3,8 +3,8 @@
         <Name>pluma</Name>
         <Homepage>https://mate-desktop.org/</Homepage>
         <Packager>
-            <Name>Jakob Gezelius</Name>
-            <Email>jakob@knugen.nu</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <PartOf>desktop.mate</PartOf>
@@ -763,7 +763,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="36">pluma</Dependency>
+            <Dependency release="37">pluma</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/pluma/pluma-app-activatable.h</Path>
@@ -837,12 +837,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="36">
-            <Date>2026-02-17</Date>
+        <Update release="37">
+            <Date>2026-03-21</Date>
             <Version>1.28.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Jakob Gezelius</Name>
-            <Email>jakob@knugen.nu</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Update>
     </History>
 </PISI>
