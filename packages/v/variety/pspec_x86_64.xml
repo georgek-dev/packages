@@ -3,8 +3,8 @@
         <Name>variety</Name>
         <Homepage>https://github.com/varietywalls/variety</Homepage>
         <Packager>
-            <Name>Jared Cervantes</Name>
-            <Email>jared@jaredcervantes.com</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Packager>
         <License>GPL-3.0-or-later</License>
         <PartOf>multimedia.graphics</PartOf>
@@ -256,12 +256,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="42">
-            <Date>2025-11-07</Date>
+        <Update release="43">
+            <Date>2026-03-21</Date>
             <Version>0.8.13</Version>
             <Comment>Packaging update</Comment>
-            <Name>Jared Cervantes</Name>
-            <Email>jared@jaredcervantes.com</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Update>
     </History>
 </PISI>
