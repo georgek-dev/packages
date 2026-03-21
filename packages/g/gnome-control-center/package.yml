@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : gnome-control-center
-version    : '49.6'
-release    : 182
+version    : '50.0'
+release    : 183
 source     :
-    - https://download.gnome.org/sources/gnome-control-center/49/gnome-control-center-49.6.tar.xz : 3bb8d89071f8bfa7d56c686a54266b0f696226192c48e0ccf9a23058c97f3b0a
+    - https://download.gnome.org/sources/gnome-control-center/50/gnome-control-center-50.0.tar.xz : 20e8d5b13b9f390581004cab34b74372c0ff4a16f9c11bffd93d8386fbcdeeb3
 homepage   : https://apps.gnome.org/Settings/
 license    : GPL-2.0-or-later
 component  : desktop.gnome
@@ -71,7 +71,7 @@ setup      : |
     %apply_patches
     cp $pkgfiles/start-here-solus.svg panels/system/about/gnome-logo-text.svg
     cp $pkgfiles/start-here-solus.svg panels/system/about/gnome-logo-text-dark.svg
-    %meson_configure -Ddocumentation=true -Dprivileged_group=wheel -Dx11=true
+    %meson_configure -Ddocumentation=true -Dprivileged_group=wheel
 build      : |
     %ninja_build
 install    : |

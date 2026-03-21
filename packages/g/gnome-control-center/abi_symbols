@@ -663,9 +663,6 @@ gnome-control-center:cc_input_chooser_get_type
 gnome-control-center:cc_input_chooser_new
 gnome-control-center:cc_input_chooser_set_ibus_engines
 gnome-control-center:cc_input_list_box_get_type
-gnome-control-center:cc_input_list_box_set_localed
-gnome-control-center:cc_input_list_box_set_login_auto_apply
-gnome-control-center:cc_input_list_box_set_permission
 gnome-control-center:cc_input_row_get_source
 gnome-control-center:cc_input_row_get_type
 gnome-control-center:cc_input_row_new
@@ -1165,7 +1162,6 @@ gnome-control-center:cc_stream_row_new
 gnome-control-center:cc_subwoofer_slider_get_type
 gnome-control-center:cc_subwoofer_slider_set_channel_map
 gnome-control-center:cc_subwoofer_slider_set_mixer_control
-gnome-control-center:cc_synaptics_check
 gnome-control-center:cc_system_details_window_get_type
 gnome-control-center:cc_system_details_window_new
 gnome-control-center:cc_system_get_resource
@@ -1209,7 +1205,6 @@ gnome-control-center:cc_timelike_entry_set_am_pm
 gnome-control-center:cc_timelike_entry_set_is_am
 gnome-control-center:cc_timelike_entry_set_minute_increment
 gnome-control-center:cc_timelike_entry_set_time
-gnome-control-center:cc_touchpad_check_capabilities
 gnome-control-center:cc_tz_dialog_get_selected_location
 gnome-control-center:cc_tz_dialog_get_selected_tz
 gnome-control-center:cc_tz_dialog_get_type
@@ -1233,6 +1228,7 @@ gnome-control-center:cc_user_page_new
 gnome-control-center:cc_user_page_set_user
 gnome-control-center:cc_users_page_get_type
 gnome-control-center:cc_util_app_id_to_display_name
+gnome-control-center:cc_util_get_localized_weekday_name
 gnome-control-center:cc_util_get_smart_date
 gnome-control-center:cc_util_get_smart_date_time
 gnome-control-center:cc_util_keynav_propagate_up
@@ -1273,6 +1269,7 @@ gnome-control-center:cc_wacom_page_calibrate
 gnome-control-center:cc_wacom_page_can_calibrate
 gnome-control-center:cc_wacom_page_get_type
 gnome-control-center:cc_wacom_page_new
+gnome-control-center:cc_wacom_page_set_mouse_config_visible
 gnome-control-center:cc_wacom_panel_get_gsd_wacom_bus_proxy
 gnome-control-center:cc_wacom_panel_get_input_mapping_bus_proxy
 gnome-control-center:cc_wacom_panel_get_stylus_button_action_label
@@ -1294,6 +1291,7 @@ gnome-control-center:cc_wacom_tool_get_num_buttons
 gnome-control-center:cc_wacom_tool_get_serial
 gnome-control-center:cc_wacom_tool_get_settings
 gnome-control-center:cc_wacom_tool_get_type
+gnome-control-center:cc_wacom_tool_is_puck
 gnome-control-center:cc_wacom_tool_new
 gnome-control-center:cc_wellbeing_get_resource
 gnome-control-center:cc_wellbeing_panel_get_type
@@ -1392,7 +1390,9 @@ gnome-control-center:cc_wwan_device_get_model
 gnome-control-center:cc_wwan_device_get_network_state
 gnome-control-center:cc_wwan_device_get_operator_name
 gnome-control-center:cc_wwan_device_get_path
+gnome-control-center:cc_wwan_device_get_primary_sim_slot
 gnome-control-center:cc_wwan_device_get_sim_lock
+gnome-control-center:cc_wwan_device_get_sim_slots
 gnome-control-center:cc_wwan_device_get_simple_error
 gnome-control-center:cc_wwan_device_get_string_from_mode
 gnome-control-center:cc_wwan_device_get_supported_modes
@@ -1417,6 +1417,7 @@ gnome-control-center:cc_wwan_device_send_puk
 gnome-control-center:cc_wwan_device_send_puk_finish
 gnome-control-center:cc_wwan_device_set_current_mode
 gnome-control-center:cc_wwan_device_set_current_mode_finish
+gnome-control-center:cc_wwan_device_set_primary_sim_slot
 gnome-control-center:cc_wwan_get_resource
 gnome-control-center:cc_wwan_mode_dialog_get_type
 gnome-control-center:cc_wwan_mode_dialog_new
@@ -1519,8 +1520,10 @@ gnome-control-center:g_desktop_pad_button_action_get_type
 gnome-control-center:g_desktop_pointer_accel_profile_get_type
 gnome-control-center:g_desktop_pointing_stick_scroll_method_get_type
 gnome-control-center:g_desktop_proxy_mode_get_type
+gnome-control-center:g_desktop_reduced_motion_get_type
 gnome-control-center:g_desktop_screensaver_mode_get_type
 gnome-control-center:g_desktop_stylus_button_action_get_type
+gnome-control-center:g_desktop_stylus_eraser_button_mode_get_type
 gnome-control-center:g_desktop_tablet_mapping_get_type
 gnome-control-center:g_desktop_titlebar_action_get_type
 gnome-control-center:g_desktop_toolbar_icon_size_get_type
@@ -1530,6 +1533,7 @@ gnome-control-center:g_desktop_touchpad_handedness_get_type
 gnome-control-center:g_desktop_touchpad_tap_button_map_get_type
 gnome-control-center:g_desktop_usb_protection_get_type
 gnome-control-center:g_desktop_visual_bell_type_get_type
+gnome-control-center:g_desktop_weekday_get_type
 gnome-control-center:get_all_ppds_async
 gnome-control-center:get_app_id
 gnome-control-center:get_cpu_info
@@ -2180,4 +2184,3 @@ gnome-control-center:widget_unset_error
 gnome-control-center:wireguard_peer_get_type
 gnome-control-center:wireguard_peer_new
 gnome-control-center:xcb_modifier_transform_binding_to_label
-gnome-control-center:xdevice_get_device_node
