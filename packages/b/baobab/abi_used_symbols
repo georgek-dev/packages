@@ -168,6 +168,7 @@ libglib-2.0.so.0:g_error_new_literal
 libglib-2.0.so.0:g_filename_display_name
 libglib-2.0.so.0:g_format_size_full
 libglib-2.0.so.0:g_free
+libglib-2.0.so.0:g_free_sized
 libglib-2.0.so.0:g_get_application_name
 libglib-2.0.so.0:g_get_home_dir
 libglib-2.0.so.0:g_get_prgname
