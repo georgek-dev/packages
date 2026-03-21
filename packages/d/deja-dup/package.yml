@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : deja-dup
-version    : '49.3'
-release    : 38
+version    : '50.0'
+release    : 39
 source     :
-    - https://gitlab.gnome.org/World/deja-dup/-/archive/49.3/deja-dup-49.3.tar.gz : 99d1e574537b9b938c43220191a7f2f2736b73c8c842e63d3642459cfd8ce98c
+    - https://gitlab.gnome.org/World/deja-dup/-/archive/50.0/deja-dup-50.0.tar.gz : 7f1efb56aab43b622f9e23acad5c2433b94ca2edab0cce458e4475e199311b42
 homepage   : https://apps.gnome.org/DejaDup/
 license    : GPL-3.0-or-later
 component  : system.utils

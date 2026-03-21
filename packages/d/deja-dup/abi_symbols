@@ -154,6 +154,7 @@ libdeja.so:deja_dup_backend_watcher_get_instance
 libdeja.so:deja_dup_backend_watcher_get_type
 libdeja.so:deja_dup_backup_error_get_type
 libdeja.so:deja_dup_backup_error_quark
+libdeja.so:deja_dup_borg_tool
 libdeja.so:deja_dup_clean_tempdirs
 libdeja.so:deja_dup_clean_tempdirs_finish
 libdeja.so:deja_dup_copy_env
@@ -489,7 +490,6 @@ libdeja.so:deja_dup_tool_plugin_supports_backend
 libdeja.so:deja_dup_tool_plugin_supports_mount
 libdeja.so:deja_dup_trash
 libdeja.so:deja_dup_try_realpath
-libdeja.so:deja_dup_unsupported_msg
 libdeja.so:deja_dup_update_last_run_timestamp
 libdeja.so:deja_dup_update_nag_time
 libdeja.so:deja_dup_update_prompt_time
