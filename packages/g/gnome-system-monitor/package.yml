@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : gnome-system-monitor
-version    : '49.1'
-release    : 34
+version    : '50.0'
+release    : 35
 source     :
-    - https://download.gnome.org/sources/gnome-system-monitor/49/gnome-system-monitor-49.1.tar.xz : 915b6a321ada12eba7bf578c20c9fe5e41f55d532847cbd124bbddaaec11d70f
+    - https://download.gnome.org/sources/gnome-system-monitor/50/gnome-system-monitor-50.0.tar.xz : a4138aa754b4584c46de91fad1d685e27b12bc2457de761863b6be02d84c4862
 homepage   : https://apps.gnome.org/SystemMonitor/
 license    : GPL-2.0-or-later
 component  : desktop.gnome
