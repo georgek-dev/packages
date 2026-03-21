@@ -35,7 +35,6 @@ libadwaita-1.so.0:adw_carousel_scroll_to
 libadwaita-1.so.0:adw_carousel_set_allow_scroll_wheel
 libadwaita-1.so.0:adw_dialog_close
 libadwaita-1.so.0:adw_dialog_force_close
-libadwaita-1.so.0:adw_dialog_get_focus
 libadwaita-1.so.0:adw_dialog_get_type
 libadwaita-1.so.0:adw_dialog_present
 libadwaita-1.so.0:adw_dialog_set_content_width
@@ -50,7 +49,6 @@ libadwaita-1.so.0:adw_leaflet_set_visible_child_name
 libadwaita-1.so.0:adw_navigation_page_get_type
 libadwaita-1.so.0:adw_navigation_page_set_title
 libadwaita-1.so.0:adw_navigation_view_push
-libadwaita-1.so.0:adw_navigation_view_replace
 libadwaita-1.so.0:adw_preferences_dialog_get_type
 libadwaita-1.so.0:adw_preferences_group_add
 libadwaita-1.so.0:adw_preferences_group_get_title
@@ -256,11 +254,15 @@ libc.so.6:exit
 libc.so.6:fileno
 libc.so.6:fnmatch
 libc.so.6:geteuid
+libc.so.6:getpid
+libc.so.6:getpriority
+libc.so.6:gettid
 libc.so.6:getuid
 libc.so.6:isatty
 libc.so.6:malloc_trim
 libc.so.6:memcpy
 libc.so.6:memmove
+libc.so.6:nice
 libc.so.6:qsort
 libc.so.6:setlocale
 libc.so.6:sleep
@@ -505,6 +507,7 @@ libgio-2.0.so.0:g_app_info_launch
 libgio-2.0.so.0:g_app_info_launch_default_for_uri
 libgio-2.0.so.0:g_app_info_monitor_get
 libgio-2.0.so.0:g_app_info_should_show
+libgio-2.0.so.0:g_application_activate
 libgio-2.0.so.0:g_application_add_main_option_entries
 libgio-2.0.so.0:g_application_get_dbus_connection
 libgio-2.0.so.0:g_application_get_default
@@ -528,7 +531,6 @@ libgio-2.0.so.0:g_bus_get_finish
 libgio-2.0.so.0:g_bus_get_sync
 libgio-2.0.so.0:g_bus_own_name_on_connection
 libgio-2.0.so.0:g_bus_unown_name
-libgio-2.0.so.0:g_bus_watch_name_on_connection
 libgio-2.0.so.0:g_bytes_icon_new
 libgio-2.0.so.0:g_cancellable_cancel
 libgio-2.0.so.0:g_cancellable_connect
@@ -540,7 +542,6 @@ libgio-2.0.so.0:g_cancellable_source_new
 libgio-2.0.so.0:g_converter_input_stream_new
 libgio-2.0.so.0:g_dbus_connection_call
 libgio-2.0.so.0:g_dbus_connection_call_finish
-libgio-2.0.so.0:g_dbus_connection_call_sync
 libgio-2.0.so.0:g_dbus_connection_emit_signal
 libgio-2.0.so.0:g_dbus_connection_get_type
 libgio-2.0.so.0:g_dbus_error_get_remote_error
@@ -557,6 +558,7 @@ libgio-2.0.so.0:g_dbus_interface_skeleton_get_connections
 libgio-2.0.so.0:g_dbus_interface_skeleton_get_object_path
 libgio-2.0.so.0:g_dbus_interface_skeleton_get_type
 libgio-2.0.so.0:g_dbus_interface_skeleton_unexport
+libgio-2.0.so.0:g_dbus_message_get_flags
 libgio-2.0.so.0:g_dbus_message_get_unix_fd_list
 libgio-2.0.so.0:g_dbus_method_invocation_get_message
 libgio-2.0.so.0:g_dbus_method_invocation_get_method_info
@@ -603,6 +605,7 @@ libgio-2.0.so.0:g_file_monitor
 libgio-2.0.so.0:g_file_monitor_cancel
 libgio-2.0.so.0:g_file_monitor_directory
 libgio-2.0.so.0:g_file_monitor_file
+libgio-2.0.so.0:g_file_monitor_get_type
 libgio-2.0.so.0:g_file_new_for_path
 libgio-2.0.so.0:g_file_new_for_uri
 libgio-2.0.so.0:g_file_peek_path
@@ -756,6 +759,7 @@ libglib-2.0.so.0:g_compute_checksum_for_string
 libglib-2.0.so.0:g_cond_broadcast
 libglib-2.0.so.0:g_cond_clear
 libglib-2.0.so.0:g_cond_init
+libglib-2.0.so.0:g_cond_signal
 libglib-2.0.so.0:g_cond_wait
 libglib-2.0.so.0:g_datalist_clear
 libglib-2.0.so.0:g_datalist_id_set_data_full
@@ -803,6 +807,7 @@ libglib-2.0.so.0:g_find_program_in_path
 libglib-2.0.so.0:g_format_size
 libglib-2.0.so.0:g_format_size_full
 libglib-2.0.so.0:g_free
+libglib-2.0.so.0:g_free_sized
 libglib-2.0.so.0:g_get_application_name
 libglib-2.0.so.0:g_get_home_dir
 libglib-2.0.so.0:g_get_language_names
@@ -817,6 +822,7 @@ libglib-2.0.so.0:g_get_user_cache_dir
 libglib-2.0.so.0:g_get_user_config_dir
 libglib-2.0.so.0:g_get_user_data_dir
 libglib-2.0.so.0:g_get_user_name
+libglib-2.0.so.0:g_get_user_state_dir
 libglib-2.0.so.0:g_getenv
 libglib-2.0.so.0:g_hash_table_add
 libglib-2.0.so.0:g_hash_table_contains
@@ -844,6 +850,7 @@ libglib-2.0.so.0:g_intern_static_string
 libglib-2.0.so.0:g_key_file_free
 libglib-2.0.so.0:g_key_file_get_boolean
 libglib-2.0.so.0:g_key_file_get_groups
+libglib-2.0.so.0:g_key_file_get_integer
 libglib-2.0.so.0:g_key_file_get_keys
 libglib-2.0.so.0:g_key_file_get_locale_string
 libglib-2.0.so.0:g_key_file_get_string
@@ -855,6 +862,9 @@ libglib-2.0.so.0:g_key_file_has_key
 libglib-2.0.so.0:g_key_file_load_from_data
 libglib-2.0.so.0:g_key_file_load_from_file
 libglib-2.0.so.0:g_key_file_new
+libglib-2.0.so.0:g_key_file_save_to_file
+libglib-2.0.so.0:g_key_file_set_boolean
+libglib-2.0.so.0:g_key_file_set_integer
 libglib-2.0.so.0:g_key_file_unref
 libglib-2.0.so.0:g_list_free
 libglib-2.0.so.0:g_list_free_full
@@ -881,7 +891,7 @@ libglib-2.0.so.0:g_main_context_ref
 libglib-2.0.so.0:g_main_context_ref_thread_default
 libglib-2.0.so.0:g_main_context_unref
 libglib-2.0.so.0:g_main_context_wakeup
-libglib-2.0.so.0:g_main_loop_is_running
+libglib-2.0.so.0:g_main_current_source
 libglib-2.0.so.0:g_main_loop_new
 libglib-2.0.so.0:g_main_loop_quit
 libglib-2.0.so.0:g_main_loop_run
@@ -1090,7 +1100,6 @@ libglib-2.0.so.0:g_variant_ref_sink
 libglib-2.0.so.0:g_variant_take_ref
 libglib-2.0.so.0:g_variant_type_checked_
 libglib-2.0.so.0:g_variant_type_equal
-libglib-2.0.so.0:g_variant_type_new
 libglib-2.0.so.0:g_variant_unref
 libglib-2.0.so.0:g_warn_message
 libgmodule-2.0.so.0:g_module_close
@@ -1295,10 +1304,8 @@ libgtk-4.so.1:gtk_init
 libgtk-4.so.1:gtk_label_get_label
 libgtk-4.so.1:gtk_label_get_layout
 libgtk-4.so.1:gtk_label_get_text
-libgtk-4.so.1:gtk_label_get_type
 libgtk-4.so.1:gtk_label_get_use_markup
 libgtk-4.so.1:gtk_label_new
-libgtk-4.so.1:gtk_label_select_region
 libgtk-4.so.1:gtk_label_set_ellipsize
 libgtk-4.so.1:gtk_label_set_label
 libgtk-4.so.1:gtk_label_set_lines
@@ -1449,6 +1456,8 @@ libgtk-4.so.1:gtk_window_destroy
 libgtk-4.so.1:gtk_window_get_focus
 libgtk-4.so.1:gtk_window_get_type
 libgtk-4.so.1:gtk_window_is_active
+libgtk-4.so.1:gtk_window_is_maximized
+libgtk-4.so.1:gtk_window_maximize
 libgtk-4.so.1:gtk_window_present
 libgtk-4.so.1:gtk_window_set_default_size
 libgtk-4.so.1:gtk_window_set_focus
@@ -1544,11 +1553,14 @@ libpackagekit-glib2.so.18:pk_info_enum_to_string
 libpackagekit-glib2.so.18:pk_offline_action_to_string
 libpackagekit-glib2.so.18:pk_offline_cancel_with_flags
 libpackagekit-glib2.so.18:pk_offline_error_quark
+libpackagekit-glib2.so.18:pk_offline_get_action
 libpackagekit-glib2.so.18:pk_offline_get_prepared_ids
 libpackagekit-glib2.so.18:pk_offline_get_prepared_monitor
+libpackagekit-glib2.so.18:pk_offline_get_prepared_upgrade_name
 libpackagekit-glib2.so.18:pk_offline_get_results
 libpackagekit-glib2.so.18:pk_offline_get_results_mtime
 libpackagekit-glib2.so.18:pk_offline_trigger_upgrade_with_flags
+libpackagekit-glib2.so.18:pk_offline_trigger_with_flags
 libpackagekit-glib2.so.18:pk_package_get_arch
 libpackagekit-glib2.so.18:pk_package_get_data
 libpackagekit-glib2.so.18:pk_package_get_id
@@ -1688,7 +1700,6 @@ libxmlb.so.2:xb_query_new
 libxmlb.so.2:xb_silo_export
 libxmlb.so.2:xb_silo_get_root
 libxmlb.so.2:xb_silo_get_type
-libxmlb.so.2:xb_silo_is_valid
 libxmlb.so.2:xb_silo_lookup_query
 libxmlb.so.2:xb_silo_query
 libxmlb.so.2:xb_silo_query_first
