@@ -3,8 +3,8 @@
         <Name>gedit-plugins</Name>
         <Homepage>https://gitlab.gnome.org/World/gedit/gedit-plugins</Homepage>
         <Packager>
-            <Name>Muhammad Alfi Syahrin</Name>
-            <Email>malfisya.dev@hotmail.com</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <PartOf>desktop.gnome</PartOf>
@@ -18,10 +18,10 @@
         <Description xml:lang="en">A collection of plugins for gedit</Description>
         <PartOf>desktop.gnome</PartOf>
         <RuntimeDependencies>
-            <Dependency releaseFrom="44">gedit-plugin-bookmarks</Dependency>
-            <Dependency releaseFrom="44">gedit-plugin-drawspaces</Dependency>
-            <Dependency releaseFrom="44">gedit-plugin-smartspaces</Dependency>
-            <Dependency releaseFrom="44">gedit-plugin-wordcompletion</Dependency>
+            <Dependency releaseFrom="45">gedit-plugin-bookmarks</Dependency>
+            <Dependency releaseFrom="45">gedit-plugin-drawspaces</Dependency>
+            <Dependency releaseFrom="45">gedit-plugin-smartspaces</Dependency>
+            <Dependency releaseFrom="45">gedit-plugin-wordcompletion</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="library">/usr/lib64/gedit/plugins/shared</Path>
@@ -33,7 +33,7 @@
         <Summary xml:lang="en">gedit bookmarks plugin</Summary>
         <Description xml:lang="en">The gedit bookmarks plugin.</Description>
         <RuntimeDependencies>
-            <Dependency releaseFrom="44">gedit-plugins-common</Dependency>
+            <Dependency releaseFrom="45">gedit-plugins-common</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="library">/usr/lib64/gedit/plugins/bookmarks.plugin</Path>
@@ -76,7 +76,7 @@
         <Summary xml:lang="en">gedit drawspaces plugin</Summary>
         <Description xml:lang="en">The gedit drawspaces plugin.</Description>
         <RuntimeDependencies>
-            <Dependency releaseFrom="44">gedit-plugins-common</Dependency>
+            <Dependency releaseFrom="45">gedit-plugins-common</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="library">/usr/lib64/gedit/plugins/drawspaces.plugin</Path>
@@ -120,7 +120,7 @@
         <Summary xml:lang="en">gedit smartspaces plugin</Summary>
         <Description xml:lang="en">The gedit smartspaces plugin.</Description>
         <RuntimeDependencies>
-            <Dependency releaseFrom="44">gedit-plugins-common</Dependency>
+            <Dependency releaseFrom="45">gedit-plugins-common</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="library">/usr/lib64/gedit/plugins/libsmartspaces.so</Path>
@@ -133,7 +133,7 @@
         <Summary xml:lang="en">gedit wordcompletion plugin</Summary>
         <Description xml:lang="en">The gedit wordcompletion plugin.</Description>
         <RuntimeDependencies>
-            <Dependency releaseFrom="44">gedit-plugins-common</Dependency>
+            <Dependency releaseFrom="45">gedit-plugins-common</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="library">/usr/lib64/gedit/plugins/libwordcompletion.so</Path>
@@ -305,12 +305,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="44">
-            <Date>2026-02-15</Date>
+        <Update release="45">
+            <Date>2026-03-21</Date>
             <Version>49.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Muhammad Alfi Syahrin</Name>
-            <Email>malfisya.dev@hotmail.com</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Update>
     </History>
 </PISI>

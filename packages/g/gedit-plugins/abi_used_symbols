@@ -128,6 +128,6 @@ libgtk-3.so.0:gtk_text_iter_starts_line
 libgtk-3.so.0:gtk_text_view_get_buffer
 libgtk-3.so.0:gtk_text_view_scroll_to_iter
 libgtk-3.so.0:gtk_widget_get_toplevel
-libpeas-1.0.so.0:peas_extension_base_get_type
-libpeas-1.0.so.0:peas_object_module_register_extension_type
-libpeas-gtk-1.0.so.0:peas_gtk_configurable_get_type
+libpeas-1.0.so.1:peas_extension_base_get_type
+libpeas-1.0.so.1:peas_object_module_register_extension_type
+libpeas-gtk-1.0.so.1:peas_gtk_configurable_get_type

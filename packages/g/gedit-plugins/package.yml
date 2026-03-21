@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : gedit-plugins
 version    : '49.0'
-release    : 44
+release    : 45
 source     :
     - https://gitlab.gnome.org/World/gedit/gedit-plugins/-/archive/49.0/gedit-plugins-49.0.tar.bz2 : 7f73580bdbe47c20d1d1d5a47c77264ae1ef44f5af1231040c4ceec16f1ad318
 homepage   : https://gitlab.gnome.org/World/gedit/gedit-plugins
